@@ -1,0 +1,23 @@
+info face="ArialMT" size=33 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=2,2
+common lineHeight=40 base=31 scaleW=256 scaleH=128 pages=1 packed=0
+page id=0 file="damage_c.png"
+chars count=10
+char id=32     x=2    y=2    width=174     height=63     xoffset=0     yoffset=1    xadvance=174     page=0 chnl=0 letter="space"
+
+char id=48     x=188    y=40     width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="0"
+char id=49     x=188    y=78    width=23    height=36    xoffset=0     yoffset=1     xadvance=23    page=0 chnl=0 letter="1"
+
+char id=50     x=209    y=2    width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="2"
+
+char id=51     x=178    y=2     width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="3"
+
+char id=52     x=157    y=67     width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="4"
+
+char id=53     x=126    y=67     width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="5"
+char id=54     x=95    y=67     width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="6"
+
+char id=55     x=64    y=67    width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="7"
+char id=56     x=33    y=67     width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="8"
+char id=57     x=2     y=67     width=29    height=36    xoffset=0     yoffset=1     xadvance=29    page=0 chnl=0 letter="9"
+kernings count=1
+kerning first=49 second=49 amount=-2

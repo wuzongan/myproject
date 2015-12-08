@@ -1,0 +1,1 @@
+isWorld = false
