@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{da35f943-2f62-4dbf-bd58-91a522b39592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{54d36d2c-b373-4c65-962b-76ff1fedc28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\network">
+      <UniqueIdentifier>{a5946f6d-77c9-4518-9d6e-510b2f492676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\network\socket">
+      <UniqueIdentifier>{0e24b9d7-8f5e-4747-a092-60edf7c43837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\tolua">
+      <UniqueIdentifier>{9428fe69-ee87-42a0-ab3e-bce3fef424a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\tag">
+      <UniqueIdentifier>{ea2e318a-160c-4b81-ba44-5d482284522f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectConfigDialog.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\SimulatorConfig.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\CCBAnimationManager_luabinding.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\Floater.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\Floater_luabinding.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\GameMap.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\GameMap_luabinding.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\BytesBuffer.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\MessageUpdate.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\NetFilter.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\NetSock.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\NetworkLogic.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\NetworkLogic_luabinding.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\PacketStream.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\RecvQueue.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\network\socket\SendQueue.cpp">
+      <Filter>sources\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tag\NodeParser.cpp">
+      <Filter>sources\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tag\NodeParser_luabinding.cpp">
+      <Filter>sources\tag</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\AppDelegate.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\VersionControl.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\CustomFont.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\CustomFont_luabinding.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\DataCenter.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\tolua\DataCenter_luabinding.cpp">
+      <Filter>sources\tolua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectConfigDialog.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\SimulatorConfig.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\Singleton.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\CCBAnimationManager_luabinding.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\Floater.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\Floater_luabinding.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\GameMap.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\GameMap_luabinding.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\BytesBuffer.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\MessageUpdate.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\NetFilter.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\NetSock.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\NetworkLogic.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\NetworkLogic_luabinding.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\PacketStream.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\RecvQueue.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\network\socket\SendQueue.h">
+      <Filter>sources\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tag\NodeParser.h">
+      <Filter>sources\tag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tag\NodeParser_luabinding.h">
+      <Filter>sources\tag</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\AppConfig.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\AppDelegate.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\VersionControl.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\CustomFont.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\CustomFont_luabinding.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\DataCenter.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\tolua\DataCenter_luabinding.h">
+      <Filter>sources\tolua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>win32</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
