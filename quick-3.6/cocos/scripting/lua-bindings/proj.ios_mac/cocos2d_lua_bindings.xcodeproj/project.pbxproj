@@ -241,50 +241,96 @@
 		15EFA64C198B3320000C57D3 /* tolua++.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ABCA1FF18CD8F6E0087CE3A /* tolua++.h */; };
 		241A74F41C1047D800C34841 /* lua_dragonbones_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 241A74F21C1047D800C34841 /* lua_dragonbones_auto.cpp */; settings = {ASSET_TAGS = (); }; };
 		241A74F51C1047D800C34841 /* lua_dragonbones_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 241A74F31C1047D800C34841 /* lua_dragonbones_auto.hpp */; settings = {ASSET_TAGS = (); }; };
-		24344F501C1682F5006151D0 /* libbase64++.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344E9A1C1682F5006151D0 /* libbase64++.h */; settings = {ASSET_TAGS = (); }; };
-		24344F511C1682F5006151D0 /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344E9C1C1682F5006151D0 /* mempool.h */; settings = {ASSET_TAGS = (); }; };
-		24344F521C1682F5006151D0 /* internalJSONNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344E9E1C1682F5006151D0 /* internalJSONNode.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F531C1682F5006151D0 /* internalJSONNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344E9F1C1682F5006151D0 /* internalJSONNode.h */; settings = {ASSET_TAGS = (); }; };
-		24344F541C1682F5006151D0 /* JSON_Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EA01C1682F5006151D0 /* JSON_Base64.h */; settings = {ASSET_TAGS = (); }; };
-		24344F551C1682F5006151D0 /* JSONAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EA11C1682F5006151D0 /* JSONAllocator.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F561C1682F5006151D0 /* JSONAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EA21C1682F5006151D0 /* JSONAllocator.h */; settings = {ASSET_TAGS = (); }; };
-		24344F571C1682F5006151D0 /* JSONChildren.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EA31C1682F5006151D0 /* JSONChildren.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F581C1682F5006151D0 /* JSONChildren.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EA41C1682F5006151D0 /* JSONChildren.h */; settings = {ASSET_TAGS = (); }; };
-		24344F591C1682F5006151D0 /* JSONDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EA51C1682F5006151D0 /* JSONDebug.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F5A1C1682F5006151D0 /* JSONDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EA61C1682F5006151D0 /* JSONDebug.h */; settings = {ASSET_TAGS = (); }; };
-		24344F5B1C1682F5006151D0 /* GNU_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EA81C1682F5006151D0 /* GNU_C.h */; settings = {ASSET_TAGS = (); }; };
-		24344F5C1C1682F5006151D0 /* Strings_Defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EA91C1682F5006151D0 /* Strings_Defs.h */; settings = {ASSET_TAGS = (); }; };
-		24344F5D1C1682F5006151D0 /* Unknown_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EAA1C1682F5006151D0 /* Unknown_C.h */; settings = {ASSET_TAGS = (); }; };
-		24344F5E1C1682F5006151D0 /* Visual_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EAB1C1682F5006151D0 /* Visual_C.h */; settings = {ASSET_TAGS = (); }; };
-		24344F5F1C1682F5006151D0 /* JSONDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EAC1C1682F5006151D0 /* JSONDefs.h */; settings = {ASSET_TAGS = (); }; };
-		24344F601C1682F5006151D0 /* JSONGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EAD1C1682F5006151D0 /* JSONGlobals.h */; settings = {ASSET_TAGS = (); }; };
-		24344F611C1682F5006151D0 /* JSONIterators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EAE1C1682F5006151D0 /* JSONIterators.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F621C1682F5006151D0 /* JSONMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EAF1C1682F5006151D0 /* JSONMemory.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F631C1682F5006151D0 /* JSONMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EB01C1682F5006151D0 /* JSONMemory.h */; settings = {ASSET_TAGS = (); }; };
-		24344F641C1682F5006151D0 /* JSONMemoryPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EB11C1682F5006151D0 /* JSONMemoryPool.h */; settings = {ASSET_TAGS = (); }; };
-		24344F651C1682F5006151D0 /* JSONNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EB21C1682F5006151D0 /* JSONNode.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F661C1682F5006151D0 /* JSONNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EB31C1682F5006151D0 /* JSONNode.h */; settings = {ASSET_TAGS = (); }; };
-		24344F671C1682F5006151D0 /* JSONNode_Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EB41C1682F5006151D0 /* JSONNode_Mutex.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F681C1682F5006151D0 /* JSONPreparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EB51C1682F5006151D0 /* JSONPreparse.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F691C1682F5006151D0 /* JSONPreparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EB61C1682F5006151D0 /* JSONPreparse.h */; settings = {ASSET_TAGS = (); }; };
-		24344F6A1C1682F5006151D0 /* JSONSharedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EB71C1682F5006151D0 /* JSONSharedString.h */; settings = {ASSET_TAGS = (); }; };
-		24344F6B1C1682F5006151D0 /* JSONSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EB81C1682F5006151D0 /* JSONSingleton.h */; settings = {ASSET_TAGS = (); }; };
-		24344F6C1C1682F5006151D0 /* JSONStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EB91C1682F5006151D0 /* JSONStats.h */; settings = {ASSET_TAGS = (); }; };
-		24344F6D1C1682F5006151D0 /* JSONStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EBA1C1682F5006151D0 /* JSONStream.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F6E1C1682F5006151D0 /* JSONStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EBB1C1682F5006151D0 /* JSONStream.h */; settings = {ASSET_TAGS = (); }; };
-		24344F6F1C1682F5006151D0 /* JSONValidator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EBC1C1682F5006151D0 /* JSONValidator.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F701C1682F5006151D0 /* JSONValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EBD1C1682F5006151D0 /* JSONValidator.h */; settings = {ASSET_TAGS = (); }; };
-		24344F711C1682F5006151D0 /* JSONWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EBE1C1682F5006151D0 /* JSONWorker.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F721C1682F5006151D0 /* JSONWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EBF1C1682F5006151D0 /* JSONWorker.h */; settings = {ASSET_TAGS = (); }; };
-		24344F731C1682F5006151D0 /* JSONWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EC01C1682F5006151D0 /* JSONWriter.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F741C1682F5006151D0 /* libjson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344EC11C1682F5006151D0 /* libjson.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344F751C1682F5006151D0 /* NumberToString.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344EC21C1682F5006151D0 /* NumberToString.h */; settings = {ASSET_TAGS = (); }; };
-		24344FC61C1682F5006151D0 /* JSONOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344F471C1682F5006151D0 /* JSONOptions.h */; settings = {ASSET_TAGS = (); }; };
-		24344FC71C1682F5006151D0 /* libjson.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344F481C1682F5006151D0 /* libjson.h */; settings = {ASSET_TAGS = (); }; };
-		24344FC91C1682F5006151D0 /* lua_jsonInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344F4C1C1682F5006151D0 /* lua_jsonInterface.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344FCA1C1682F5006151D0 /* lua_jsonInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344F4D1C1682F5006151D0 /* lua_jsonInterface.h */; settings = {ASSET_TAGS = (); }; };
-		24344FCB1C1682F5006151D0 /* util_json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24344F4E1C1682F5006151D0 /* util_json.cpp */; settings = {ASSET_TAGS = (); }; };
-		24344FCC1C1682F5006151D0 /* util_json.h in Headers */ = {isa = PBXBuildFile; fileRef = 24344F4F1C1682F5006151D0 /* util_json.h */; settings = {ASSET_TAGS = (); }; };
+		24B452201C2BE8AA00B68FFD /* lua_dragonbones_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 241A74F31C1047D800C34841 /* lua_dragonbones_auto.hpp */; settings = {ASSET_TAGS = (); }; };
+		24B452211C2BE8AD00B68FFD /* lua_dragonbones_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 241A74F21C1047D800C34841 /* lua_dragonbones_auto.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452781C2BE93900B68FFD /* libbase64++.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452271C2BE93900B68FFD /* libbase64++.h */; settings = {ASSET_TAGS = (); }; };
+		24B452791C2BE93900B68FFD /* libbase64++.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452271C2BE93900B68FFD /* libbase64++.h */; settings = {ASSET_TAGS = (); }; };
+		24B4527A1C2BE93900B68FFD /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452291C2BE93900B68FFD /* mempool.h */; settings = {ASSET_TAGS = (); }; };
+		24B4527B1C2BE93900B68FFD /* mempool.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452291C2BE93900B68FFD /* mempool.h */; settings = {ASSET_TAGS = (); }; };
+		24B4527C1C2BE93900B68FFD /* internalJSONNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4522B1C2BE93900B68FFD /* internalJSONNode.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4527D1C2BE93900B68FFD /* internalJSONNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4522B1C2BE93900B68FFD /* internalJSONNode.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4527E1C2BE93900B68FFD /* internalJSONNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4522C1C2BE93900B68FFD /* internalJSONNode.h */; settings = {ASSET_TAGS = (); }; };
+		24B4527F1C2BE93900B68FFD /* internalJSONNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4522C1C2BE93900B68FFD /* internalJSONNode.h */; settings = {ASSET_TAGS = (); }; };
+		24B452801C2BE93900B68FFD /* JSON_Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4522D1C2BE93900B68FFD /* JSON_Base64.h */; settings = {ASSET_TAGS = (); }; };
+		24B452811C2BE93900B68FFD /* JSON_Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4522D1C2BE93900B68FFD /* JSON_Base64.h */; settings = {ASSET_TAGS = (); }; };
+		24B452821C2BE93900B68FFD /* JSONAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4522E1C2BE93900B68FFD /* JSONAllocator.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452831C2BE93900B68FFD /* JSONAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4522E1C2BE93900B68FFD /* JSONAllocator.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452841C2BE93900B68FFD /* JSONAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4522F1C2BE93900B68FFD /* JSONAllocator.h */; settings = {ASSET_TAGS = (); }; };
+		24B452851C2BE93900B68FFD /* JSONAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4522F1C2BE93900B68FFD /* JSONAllocator.h */; settings = {ASSET_TAGS = (); }; };
+		24B452861C2BE93900B68FFD /* JSONChildren.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452301C2BE93900B68FFD /* JSONChildren.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452871C2BE93900B68FFD /* JSONChildren.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452301C2BE93900B68FFD /* JSONChildren.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452881C2BE93900B68FFD /* JSONChildren.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452311C2BE93900B68FFD /* JSONChildren.h */; settings = {ASSET_TAGS = (); }; };
+		24B452891C2BE93900B68FFD /* JSONChildren.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452311C2BE93900B68FFD /* JSONChildren.h */; settings = {ASSET_TAGS = (); }; };
+		24B4528A1C2BE93900B68FFD /* JSONDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452321C2BE93900B68FFD /* JSONDebug.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4528B1C2BE93900B68FFD /* JSONDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452321C2BE93900B68FFD /* JSONDebug.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4528C1C2BE93900B68FFD /* JSONDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452331C2BE93900B68FFD /* JSONDebug.h */; settings = {ASSET_TAGS = (); }; };
+		24B4528D1C2BE93900B68FFD /* JSONDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452331C2BE93900B68FFD /* JSONDebug.h */; settings = {ASSET_TAGS = (); }; };
+		24B4528E1C2BE93900B68FFD /* GNU_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452351C2BE93900B68FFD /* GNU_C.h */; settings = {ASSET_TAGS = (); }; };
+		24B4528F1C2BE93900B68FFD /* GNU_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452351C2BE93900B68FFD /* GNU_C.h */; settings = {ASSET_TAGS = (); }; };
+		24B452901C2BE93900B68FFD /* Strings_Defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452361C2BE93900B68FFD /* Strings_Defs.h */; settings = {ASSET_TAGS = (); }; };
+		24B452911C2BE93900B68FFD /* Strings_Defs.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452361C2BE93900B68FFD /* Strings_Defs.h */; settings = {ASSET_TAGS = (); }; };
+		24B452921C2BE93900B68FFD /* Unknown_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452371C2BE93900B68FFD /* Unknown_C.h */; settings = {ASSET_TAGS = (); }; };
+		24B452931C2BE93900B68FFD /* Unknown_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452371C2BE93900B68FFD /* Unknown_C.h */; settings = {ASSET_TAGS = (); }; };
+		24B452941C2BE93900B68FFD /* Visual_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452381C2BE93900B68FFD /* Visual_C.h */; settings = {ASSET_TAGS = (); }; };
+		24B452951C2BE93900B68FFD /* Visual_C.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452381C2BE93900B68FFD /* Visual_C.h */; settings = {ASSET_TAGS = (); }; };
+		24B452961C2BE93900B68FFD /* JSONDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452391C2BE93900B68FFD /* JSONDefs.h */; settings = {ASSET_TAGS = (); }; };
+		24B452971C2BE93900B68FFD /* JSONDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452391C2BE93900B68FFD /* JSONDefs.h */; settings = {ASSET_TAGS = (); }; };
+		24B452981C2BE93900B68FFD /* JSONGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4523A1C2BE93900B68FFD /* JSONGlobals.h */; settings = {ASSET_TAGS = (); }; };
+		24B452991C2BE93900B68FFD /* JSONGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4523A1C2BE93900B68FFD /* JSONGlobals.h */; settings = {ASSET_TAGS = (); }; };
+		24B4529A1C2BE93900B68FFD /* JSONIterators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4523B1C2BE93900B68FFD /* JSONIterators.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4529B1C2BE93900B68FFD /* JSONIterators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4523B1C2BE93900B68FFD /* JSONIterators.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4529C1C2BE93900B68FFD /* JSONMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4523C1C2BE93900B68FFD /* JSONMemory.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4529D1C2BE93900B68FFD /* JSONMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4523C1C2BE93900B68FFD /* JSONMemory.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B4529E1C2BE93900B68FFD /* JSONMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4523D1C2BE93900B68FFD /* JSONMemory.h */; settings = {ASSET_TAGS = (); }; };
+		24B4529F1C2BE93900B68FFD /* JSONMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4523D1C2BE93900B68FFD /* JSONMemory.h */; settings = {ASSET_TAGS = (); }; };
+		24B452A01C2BE93900B68FFD /* JSONMemoryPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4523E1C2BE93900B68FFD /* JSONMemoryPool.h */; settings = {ASSET_TAGS = (); }; };
+		24B452A11C2BE93900B68FFD /* JSONMemoryPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4523E1C2BE93900B68FFD /* JSONMemoryPool.h */; settings = {ASSET_TAGS = (); }; };
+		24B452A21C2BE93900B68FFD /* JSONNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4523F1C2BE93900B68FFD /* JSONNode.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452A31C2BE93900B68FFD /* JSONNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4523F1C2BE93900B68FFD /* JSONNode.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452A41C2BE93900B68FFD /* JSONNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452401C2BE93900B68FFD /* JSONNode.h */; settings = {ASSET_TAGS = (); }; };
+		24B452A51C2BE93900B68FFD /* JSONNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452401C2BE93900B68FFD /* JSONNode.h */; settings = {ASSET_TAGS = (); }; };
+		24B452A61C2BE93900B68FFD /* JSONNode_Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452411C2BE93900B68FFD /* JSONNode_Mutex.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452A71C2BE93900B68FFD /* JSONNode_Mutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452411C2BE93900B68FFD /* JSONNode_Mutex.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452A81C2BE93900B68FFD /* JSONPreparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452421C2BE93900B68FFD /* JSONPreparse.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452A91C2BE93900B68FFD /* JSONPreparse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452421C2BE93900B68FFD /* JSONPreparse.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452AA1C2BE93900B68FFD /* JSONPreparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452431C2BE93900B68FFD /* JSONPreparse.h */; settings = {ASSET_TAGS = (); }; };
+		24B452AB1C2BE93900B68FFD /* JSONPreparse.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452431C2BE93900B68FFD /* JSONPreparse.h */; settings = {ASSET_TAGS = (); }; };
+		24B452AC1C2BE93900B68FFD /* JSONSharedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452441C2BE93900B68FFD /* JSONSharedString.h */; settings = {ASSET_TAGS = (); }; };
+		24B452AD1C2BE93900B68FFD /* JSONSharedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452441C2BE93900B68FFD /* JSONSharedString.h */; settings = {ASSET_TAGS = (); }; };
+		24B452AE1C2BE93900B68FFD /* JSONSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452451C2BE93900B68FFD /* JSONSingleton.h */; settings = {ASSET_TAGS = (); }; };
+		24B452AF1C2BE93900B68FFD /* JSONSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452451C2BE93900B68FFD /* JSONSingleton.h */; settings = {ASSET_TAGS = (); }; };
+		24B452B01C2BE93900B68FFD /* JSONStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452461C2BE93900B68FFD /* JSONStats.h */; settings = {ASSET_TAGS = (); }; };
+		24B452B11C2BE93900B68FFD /* JSONStats.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452461C2BE93900B68FFD /* JSONStats.h */; settings = {ASSET_TAGS = (); }; };
+		24B452B21C2BE93900B68FFD /* JSONStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452471C2BE93900B68FFD /* JSONStream.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452B31C2BE93900B68FFD /* JSONStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452471C2BE93900B68FFD /* JSONStream.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452B41C2BE93900B68FFD /* JSONStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452481C2BE93900B68FFD /* JSONStream.h */; settings = {ASSET_TAGS = (); }; };
+		24B452B51C2BE93900B68FFD /* JSONStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452481C2BE93900B68FFD /* JSONStream.h */; settings = {ASSET_TAGS = (); }; };
+		24B452B61C2BE93900B68FFD /* JSONValidator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452491C2BE93900B68FFD /* JSONValidator.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452B71C2BE93900B68FFD /* JSONValidator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452491C2BE93900B68FFD /* JSONValidator.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452B81C2BE93900B68FFD /* JSONValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4524A1C2BE93900B68FFD /* JSONValidator.h */; settings = {ASSET_TAGS = (); }; };
+		24B452B91C2BE93900B68FFD /* JSONValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4524A1C2BE93900B68FFD /* JSONValidator.h */; settings = {ASSET_TAGS = (); }; };
+		24B452BA1C2BE93900B68FFD /* JSONWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4524B1C2BE93900B68FFD /* JSONWorker.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452BB1C2BE93900B68FFD /* JSONWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4524B1C2BE93900B68FFD /* JSONWorker.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452BC1C2BE93900B68FFD /* JSONWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4524C1C2BE93900B68FFD /* JSONWorker.h */; settings = {ASSET_TAGS = (); }; };
+		24B452BD1C2BE93900B68FFD /* JSONWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4524C1C2BE93900B68FFD /* JSONWorker.h */; settings = {ASSET_TAGS = (); }; };
+		24B452BE1C2BE93900B68FFD /* JSONWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4524D1C2BE93900B68FFD /* JSONWriter.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452BF1C2BE93900B68FFD /* JSONWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4524D1C2BE93900B68FFD /* JSONWriter.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452C01C2BE93900B68FFD /* libjson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4524E1C2BE93900B68FFD /* libjson.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452C11C2BE93900B68FFD /* libjson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B4524E1C2BE93900B68FFD /* libjson.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452C21C2BE93900B68FFD /* NumberToString.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4524F1C2BE93900B68FFD /* NumberToString.h */; settings = {ASSET_TAGS = (); }; };
+		24B452C31C2BE93900B68FFD /* NumberToString.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B4524F1C2BE93900B68FFD /* NumberToString.h */; settings = {ASSET_TAGS = (); }; };
+		24B452C41C2BE93900B68FFD /* JSONOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452721C2BE93900B68FFD /* JSONOptions.h */; settings = {ASSET_TAGS = (); }; };
+		24B452C51C2BE93900B68FFD /* JSONOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452721C2BE93900B68FFD /* JSONOptions.h */; settings = {ASSET_TAGS = (); }; };
+		24B452C61C2BE93900B68FFD /* libjson.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452731C2BE93900B68FFD /* libjson.h */; settings = {ASSET_TAGS = (); }; };
+		24B452C71C2BE93900B68FFD /* libjson.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452731C2BE93900B68FFD /* libjson.h */; settings = {ASSET_TAGS = (); }; };
+		24B452C81C2BE93900B68FFD /* lua_jsonInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452741C2BE93900B68FFD /* lua_jsonInterface.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452C91C2BE93900B68FFD /* lua_jsonInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452741C2BE93900B68FFD /* lua_jsonInterface.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452CA1C2BE93900B68FFD /* lua_jsonInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452751C2BE93900B68FFD /* lua_jsonInterface.h */; settings = {ASSET_TAGS = (); }; };
+		24B452CB1C2BE93900B68FFD /* lua_jsonInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452751C2BE93900B68FFD /* lua_jsonInterface.h */; settings = {ASSET_TAGS = (); }; };
+		24B452CC1C2BE93900B68FFD /* util_json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452761C2BE93900B68FFD /* util_json.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452CD1C2BE93900B68FFD /* util_json.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 24B452761C2BE93900B68FFD /* util_json.cpp */; settings = {ASSET_TAGS = (); }; };
+		24B452CE1C2BE93900B68FFD /* util_json.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452771C2BE93900B68FFD /* util_json.h */; settings = {ASSET_TAGS = (); }; };
+		24B452CF1C2BE93900B68FFD /* util_json.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B452771C2BE93900B68FFD /* util_json.h */; settings = {ASSET_TAGS = (); }; };
 		3E2BDB0519C5E5FE0055CDCD /* lua_cocos2dx_audioengine_auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BDB0319C5E5FE0055CDCD /* lua_cocos2dx_audioengine_auto.cpp */; };
 		3E2BDB0619C5E5FE0055CDCD /* lua_cocos2dx_audioengine_auto.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3E2BDB0419C5E5FE0055CDCD /* lua_cocos2dx_audioengine_auto.hpp */; };
 		3E2BDB0A19C5E6100055CDCD /* lua_cocos2dx_audioengine_manual.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E2BDB0819C5E6100055CDCD /* lua_cocos2dx_audioengine_manual.cpp */; };
@@ -453,50 +499,79 @@
 		1ABCA1FF18CD8F6E0087CE3A /* tolua++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "tolua++.h"; path = "../../../../external/lua/tolua/tolua++.h"; sourceTree = "<group>"; };
 		241A74F21C1047D800C34841 /* lua_dragonbones_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_dragonbones_auto.cpp; sourceTree = "<group>"; };
 		241A74F31C1047D800C34841 /* lua_dragonbones_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua_dragonbones_auto.hpp; sourceTree = "<group>"; };
-		24344E9A1C1682F5006151D0 /* libbase64++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libbase64++.h"; sourceTree = "<group>"; };
-		24344E9C1C1682F5006151D0 /* mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
-		24344E9E1C1682F5006151D0 /* internalJSONNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = internalJSONNode.cpp; sourceTree = "<group>"; };
-		24344E9F1C1682F5006151D0 /* internalJSONNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internalJSONNode.h; sourceTree = "<group>"; };
-		24344EA01C1682F5006151D0 /* JSON_Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON_Base64.h; sourceTree = "<group>"; };
-		24344EA11C1682F5006151D0 /* JSONAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONAllocator.cpp; sourceTree = "<group>"; };
-		24344EA21C1682F5006151D0 /* JSONAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAllocator.h; sourceTree = "<group>"; };
-		24344EA31C1682F5006151D0 /* JSONChildren.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONChildren.cpp; sourceTree = "<group>"; };
-		24344EA41C1682F5006151D0 /* JSONChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONChildren.h; sourceTree = "<group>"; };
-		24344EA51C1682F5006151D0 /* JSONDebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONDebug.cpp; sourceTree = "<group>"; };
-		24344EA61C1682F5006151D0 /* JSONDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDebug.h; sourceTree = "<group>"; };
-		24344EA81C1682F5006151D0 /* GNU_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNU_C.h; sourceTree = "<group>"; };
-		24344EA91C1682F5006151D0 /* Strings_Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings_Defs.h; sourceTree = "<group>"; };
-		24344EAA1C1682F5006151D0 /* Unknown_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unknown_C.h; sourceTree = "<group>"; };
-		24344EAB1C1682F5006151D0 /* Visual_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visual_C.h; sourceTree = "<group>"; };
-		24344EAC1C1682F5006151D0 /* JSONDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDefs.h; sourceTree = "<group>"; };
-		24344EAD1C1682F5006151D0 /* JSONGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONGlobals.h; sourceTree = "<group>"; };
-		24344EAE1C1682F5006151D0 /* JSONIterators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONIterators.cpp; sourceTree = "<group>"; };
-		24344EAF1C1682F5006151D0 /* JSONMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONMemory.cpp; sourceTree = "<group>"; };
-		24344EB01C1682F5006151D0 /* JSONMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONMemory.h; sourceTree = "<group>"; };
-		24344EB11C1682F5006151D0 /* JSONMemoryPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONMemoryPool.h; sourceTree = "<group>"; };
-		24344EB21C1682F5006151D0 /* JSONNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONNode.cpp; sourceTree = "<group>"; };
-		24344EB31C1682F5006151D0 /* JSONNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONNode.h; sourceTree = "<group>"; };
-		24344EB41C1682F5006151D0 /* JSONNode_Mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONNode_Mutex.cpp; sourceTree = "<group>"; };
-		24344EB51C1682F5006151D0 /* JSONPreparse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONPreparse.cpp; sourceTree = "<group>"; };
-		24344EB61C1682F5006151D0 /* JSONPreparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPreparse.h; sourceTree = "<group>"; };
-		24344EB71C1682F5006151D0 /* JSONSharedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSharedString.h; sourceTree = "<group>"; };
-		24344EB81C1682F5006151D0 /* JSONSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSingleton.h; sourceTree = "<group>"; };
-		24344EB91C1682F5006151D0 /* JSONStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONStats.h; sourceTree = "<group>"; };
-		24344EBA1C1682F5006151D0 /* JSONStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONStream.cpp; sourceTree = "<group>"; };
-		24344EBB1C1682F5006151D0 /* JSONStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONStream.h; sourceTree = "<group>"; };
-		24344EBC1C1682F5006151D0 /* JSONValidator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONValidator.cpp; sourceTree = "<group>"; };
-		24344EBD1C1682F5006151D0 /* JSONValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValidator.h; sourceTree = "<group>"; };
-		24344EBE1C1682F5006151D0 /* JSONWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONWorker.cpp; sourceTree = "<group>"; };
-		24344EBF1C1682F5006151D0 /* JSONWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONWorker.h; sourceTree = "<group>"; };
-		24344EC01C1682F5006151D0 /* JSONWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONWriter.cpp; sourceTree = "<group>"; };
-		24344EC11C1682F5006151D0 /* libjson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libjson.cpp; sourceTree = "<group>"; };
-		24344EC21C1682F5006151D0 /* NumberToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberToString.h; sourceTree = "<group>"; };
-		24344F471C1682F5006151D0 /* JSONOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONOptions.h; sourceTree = "<group>"; };
-		24344F481C1682F5006151D0 /* libjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libjson.h; sourceTree = "<group>"; };
-		24344F4C1C1682F5006151D0 /* lua_jsonInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_jsonInterface.cpp; sourceTree = "<group>"; };
-		24344F4D1C1682F5006151D0 /* lua_jsonInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_jsonInterface.h; sourceTree = "<group>"; };
-		24344F4E1C1682F5006151D0 /* util_json.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util_json.cpp; sourceTree = "<group>"; };
-		24344F4F1C1682F5006151D0 /* util_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_json.h; sourceTree = "<group>"; };
+		24B452271C2BE93900B68FFD /* libbase64++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libbase64++.h"; sourceTree = "<group>"; };
+		24B452291C2BE93900B68FFD /* mempool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mempool.h; sourceTree = "<group>"; };
+		24B4522B1C2BE93900B68FFD /* internalJSONNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = internalJSONNode.cpp; sourceTree = "<group>"; };
+		24B4522C1C2BE93900B68FFD /* internalJSONNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internalJSONNode.h; sourceTree = "<group>"; };
+		24B4522D1C2BE93900B68FFD /* JSON_Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON_Base64.h; sourceTree = "<group>"; };
+		24B4522E1C2BE93900B68FFD /* JSONAllocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONAllocator.cpp; sourceTree = "<group>"; };
+		24B4522F1C2BE93900B68FFD /* JSONAllocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAllocator.h; sourceTree = "<group>"; };
+		24B452301C2BE93900B68FFD /* JSONChildren.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONChildren.cpp; sourceTree = "<group>"; };
+		24B452311C2BE93900B68FFD /* JSONChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONChildren.h; sourceTree = "<group>"; };
+		24B452321C2BE93900B68FFD /* JSONDebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONDebug.cpp; sourceTree = "<group>"; };
+		24B452331C2BE93900B68FFD /* JSONDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDebug.h; sourceTree = "<group>"; };
+		24B452351C2BE93900B68FFD /* GNU_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNU_C.h; sourceTree = "<group>"; };
+		24B452361C2BE93900B68FFD /* Strings_Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings_Defs.h; sourceTree = "<group>"; };
+		24B452371C2BE93900B68FFD /* Unknown_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unknown_C.h; sourceTree = "<group>"; };
+		24B452381C2BE93900B68FFD /* Visual_C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Visual_C.h; sourceTree = "<group>"; };
+		24B452391C2BE93900B68FFD /* JSONDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDefs.h; sourceTree = "<group>"; };
+		24B4523A1C2BE93900B68FFD /* JSONGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONGlobals.h; sourceTree = "<group>"; };
+		24B4523B1C2BE93900B68FFD /* JSONIterators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONIterators.cpp; sourceTree = "<group>"; };
+		24B4523C1C2BE93900B68FFD /* JSONMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONMemory.cpp; sourceTree = "<group>"; };
+		24B4523D1C2BE93900B68FFD /* JSONMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONMemory.h; sourceTree = "<group>"; };
+		24B4523E1C2BE93900B68FFD /* JSONMemoryPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONMemoryPool.h; sourceTree = "<group>"; };
+		24B4523F1C2BE93900B68FFD /* JSONNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONNode.cpp; sourceTree = "<group>"; };
+		24B452401C2BE93900B68FFD /* JSONNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONNode.h; sourceTree = "<group>"; };
+		24B452411C2BE93900B68FFD /* JSONNode_Mutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONNode_Mutex.cpp; sourceTree = "<group>"; };
+		24B452421C2BE93900B68FFD /* JSONPreparse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONPreparse.cpp; sourceTree = "<group>"; };
+		24B452431C2BE93900B68FFD /* JSONPreparse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONPreparse.h; sourceTree = "<group>"; };
+		24B452441C2BE93900B68FFD /* JSONSharedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSharedString.h; sourceTree = "<group>"; };
+		24B452451C2BE93900B68FFD /* JSONSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONSingleton.h; sourceTree = "<group>"; };
+		24B452461C2BE93900B68FFD /* JSONStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONStats.h; sourceTree = "<group>"; };
+		24B452471C2BE93900B68FFD /* JSONStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONStream.cpp; sourceTree = "<group>"; };
+		24B452481C2BE93900B68FFD /* JSONStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONStream.h; sourceTree = "<group>"; };
+		24B452491C2BE93900B68FFD /* JSONValidator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONValidator.cpp; sourceTree = "<group>"; };
+		24B4524A1C2BE93900B68FFD /* JSONValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValidator.h; sourceTree = "<group>"; };
+		24B4524B1C2BE93900B68FFD /* JSONWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONWorker.cpp; sourceTree = "<group>"; };
+		24B4524C1C2BE93900B68FFD /* JSONWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONWorker.h; sourceTree = "<group>"; };
+		24B4524D1C2BE93900B68FFD /* JSONWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSONWriter.cpp; sourceTree = "<group>"; };
+		24B4524E1C2BE93900B68FFD /* libjson.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libjson.cpp; sourceTree = "<group>"; };
+		24B4524F1C2BE93900B68FFD /* NumberToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberToString.h; sourceTree = "<group>"; };
+		24B452521C2BE93900B68FFD /* array.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = array.htm; sourceTree = "<group>"; };
+		24B452531C2BE93900B68FFD /* basic_parser.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = basic_parser.htm; sourceTree = "<group>"; };
+		24B452541C2BE93900B68FFD /* child_node.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = child_node.htm; sourceTree = "<group>"; };
+		24B452551C2BE93900B68FFD /* simple_write.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = simple_write.htm; sourceTree = "<group>"; };
+		24B452571C2BE93900B68FFD /* array.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = array.htm; sourceTree = "<group>"; };
+		24B452581C2BE93900B68FFD /* basic_parser.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = basic_parser.htm; sourceTree = "<group>"; };
+		24B452591C2BE93900B68FFD /* child_node.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = child_node.htm; sourceTree = "<group>"; };
+		24B4525B1C2BE93900B68FFD /* shAutoloader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shAutoloader.js; sourceTree = "<group>"; };
+		24B4525C1C2BE93900B68FFD /* shBrushCpp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushCpp.js; sourceTree = "<group>"; };
+		24B4525D1C2BE93900B68FFD /* shCore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shCore.js; sourceTree = "<group>"; };
+		24B4525E1C2BE93900B68FFD /* shLegacy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shLegacy.js; sourceTree = "<group>"; };
+		24B4525F1C2BE93900B68FFD /* simple_write.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = simple_write.htm; sourceTree = "<group>"; };
+		24B452611C2BE93900B68FFD /* shCore.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCore.css; sourceTree = "<group>"; };
+		24B452621C2BE93900B68FFD /* shCoreDefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreDefault.css; sourceTree = "<group>"; };
+		24B452631C2BE93900B68FFD /* shCoreDjango.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreDjango.css; sourceTree = "<group>"; };
+		24B452641C2BE93900B68FFD /* shCoreEclipse.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreEclipse.css; sourceTree = "<group>"; };
+		24B452651C2BE93900B68FFD /* shCoreEmacs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreEmacs.css; sourceTree = "<group>"; };
+		24B452661C2BE93900B68FFD /* shCoreFadeToGrey.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreFadeToGrey.css; sourceTree = "<group>"; };
+		24B452671C2BE93900B68FFD /* shCoreMDUltra.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreMDUltra.css; sourceTree = "<group>"; };
+		24B452681C2BE93900B68FFD /* shCoreMidnight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreMidnight.css; sourceTree = "<group>"; };
+		24B452691C2BE93900B68FFD /* shCoreRDark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreRDark.css; sourceTree = "<group>"; };
+		24B4526A1C2BE93900B68FFD /* shThemeDefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeDefault.css; sourceTree = "<group>"; };
+		24B4526B1C2BE93900B68FFD /* shThemeDjango.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeDjango.css; sourceTree = "<group>"; };
+		24B4526C1C2BE93900B68FFD /* shThemeEclipse.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeEclipse.css; sourceTree = "<group>"; };
+		24B4526D1C2BE93900B68FFD /* shThemeEmacs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeEmacs.css; sourceTree = "<group>"; };
+		24B4526E1C2BE93900B68FFD /* shThemeFadeToGrey.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeFadeToGrey.css; sourceTree = "<group>"; };
+		24B4526F1C2BE93900B68FFD /* shThemeMDUltra.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeMDUltra.css; sourceTree = "<group>"; };
+		24B452701C2BE93900B68FFD /* shThemeMidnight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeMidnight.css; sourceTree = "<group>"; };
+		24B452711C2BE93900B68FFD /* shThemeRDark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeRDark.css; sourceTree = "<group>"; };
+		24B452721C2BE93900B68FFD /* JSONOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONOptions.h; sourceTree = "<group>"; };
+		24B452731C2BE93900B68FFD /* libjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libjson.h; sourceTree = "<group>"; };
+		24B452741C2BE93900B68FFD /* lua_jsonInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_jsonInterface.cpp; sourceTree = "<group>"; };
+		24B452751C2BE93900B68FFD /* lua_jsonInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua_jsonInterface.h; sourceTree = "<group>"; };
+		24B452761C2BE93900B68FFD /* util_json.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util_json.cpp; sourceTree = "<group>"; };
+		24B452771C2BE93900B68FFD /* util_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util_json.h; sourceTree = "<group>"; };
 		2905FACE18CF12E600240AA3 /* lua_cocos2dx_ui_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_cocos2dx_ui_auto.cpp; sourceTree = "<group>"; };
 		2905FACF18CF12E600240AA3 /* lua_cocos2dx_ui_auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lua_cocos2dx_ui_auto.hpp; sourceTree = "<group>"; };
 		3E2BDB0319C5E5FE0055CDCD /* lua_cocos2dx_audioengine_auto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua_cocos2dx_audioengine_auto.cpp; sourceTree = "<group>"; };
@@ -716,7 +791,7 @@
 		1AACE75B18BC45C200215002 /* manual */ = {
 			isa = PBXGroup;
 			children = (
-				24344E951C1682F5006151D0 /* json */,
+				24B452221C2BE93900B68FFD /* json */,
 				3E2BDB0719C5E6100055CDCD /* audioengine */,
 				158C128419A0FA1300781A76 /* 3d */,
 				15427D41198F73F700DC375D /* cocosdenshion */,
@@ -829,111 +904,180 @@
 			path = ../../../../external/lua/luasocket;
 			sourceTree = "<group>";
 		};
-		24344E951C1682F5006151D0 /* json */ = {
+		24B452221C2BE93900B68FFD /* json */ = {
 			isa = PBXGroup;
 			children = (
-				24344E961C1682F5006151D0 /* libjson */,
-				24344F4C1C1682F5006151D0 /* lua_jsonInterface.cpp */,
-				24344F4D1C1682F5006151D0 /* lua_jsonInterface.h */,
-				24344F4E1C1682F5006151D0 /* util_json.cpp */,
-				24344F4F1C1682F5006151D0 /* util_json.h */,
+				24B452231C2BE93900B68FFD /* libjson */,
+				24B452741C2BE93900B68FFD /* lua_jsonInterface.cpp */,
+				24B452751C2BE93900B68FFD /* lua_jsonInterface.h */,
+				24B452761C2BE93900B68FFD /* util_json.cpp */,
+				24B452771C2BE93900B68FFD /* util_json.h */,
 			);
 			path = json;
 			sourceTree = "<group>";
 		};
-		24344E961C1682F5006151D0 /* libjson */ = {
+		24B452231C2BE93900B68FFD /* libjson */ = {
 			isa = PBXGroup;
 			children = (
-				24344E971C1682F5006151D0 /* _internal */,
-				24344F471C1682F5006151D0 /* JSONOptions.h */,
-				24344F481C1682F5006151D0 /* libjson.h */,
+				24B452241C2BE93900B68FFD /* _internal */,
+				24B452501C2BE93900B68FFD /* Getting Started */,
+				24B452721C2BE93900B68FFD /* JSONOptions.h */,
+				24B452731C2BE93900B68FFD /* libjson.h */,
 			);
 			path = libjson;
 			sourceTree = "<group>";
 		};
-		24344E971C1682F5006151D0 /* _internal */ = {
+		24B452241C2BE93900B68FFD /* _internal */ = {
 			isa = PBXGroup;
 			children = (
-				24344E981C1682F5006151D0 /* Dependencies */,
-				24344E9D1C1682F5006151D0 /* Source */,
+				24B452251C2BE93900B68FFD /* Dependencies */,
+				24B4522A1C2BE93900B68FFD /* Source */,
 			);
 			path = _internal;
 			sourceTree = "<group>";
 		};
-		24344E981C1682F5006151D0 /* Dependencies */ = {
+		24B452251C2BE93900B68FFD /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				24344E991C1682F5006151D0 /* libbase64++ */,
-				24344E9B1C1682F5006151D0 /* mempool++ */,
+				24B452261C2BE93900B68FFD /* libbase64++ */,
+				24B452281C2BE93900B68FFD /* mempool++ */,
 			);
 			path = Dependencies;
 			sourceTree = "<group>";
 		};
-		24344E991C1682F5006151D0 /* libbase64++ */ = {
+		24B452261C2BE93900B68FFD /* libbase64++ */ = {
 			isa = PBXGroup;
 			children = (
-				24344E9A1C1682F5006151D0 /* libbase64++.h */,
+				24B452271C2BE93900B68FFD /* libbase64++.h */,
 			);
 			path = "libbase64++";
 			sourceTree = "<group>";
 		};
-		24344E9B1C1682F5006151D0 /* mempool++ */ = {
+		24B452281C2BE93900B68FFD /* mempool++ */ = {
 			isa = PBXGroup;
 			children = (
-				24344E9C1C1682F5006151D0 /* mempool.h */,
+				24B452291C2BE93900B68FFD /* mempool.h */,
 			);
 			path = "mempool++";
 			sourceTree = "<group>";
 		};
-		24344E9D1C1682F5006151D0 /* Source */ = {
+		24B4522A1C2BE93900B68FFD /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				24344E9E1C1682F5006151D0 /* internalJSONNode.cpp */,
-				24344E9F1C1682F5006151D0 /* internalJSONNode.h */,
-				24344EA01C1682F5006151D0 /* JSON_Base64.h */,
-				24344EA11C1682F5006151D0 /* JSONAllocator.cpp */,
-				24344EA21C1682F5006151D0 /* JSONAllocator.h */,
-				24344EA31C1682F5006151D0 /* JSONChildren.cpp */,
-				24344EA41C1682F5006151D0 /* JSONChildren.h */,
-				24344EA51C1682F5006151D0 /* JSONDebug.cpp */,
-				24344EA61C1682F5006151D0 /* JSONDebug.h */,
-				24344EA71C1682F5006151D0 /* JSONDefs */,
-				24344EAC1C1682F5006151D0 /* JSONDefs.h */,
-				24344EAD1C1682F5006151D0 /* JSONGlobals.h */,
-				24344EAE1C1682F5006151D0 /* JSONIterators.cpp */,
-				24344EAF1C1682F5006151D0 /* JSONMemory.cpp */,
-				24344EB01C1682F5006151D0 /* JSONMemory.h */,
-				24344EB11C1682F5006151D0 /* JSONMemoryPool.h */,
-				24344EB21C1682F5006151D0 /* JSONNode.cpp */,
-				24344EB31C1682F5006151D0 /* JSONNode.h */,
-				24344EB41C1682F5006151D0 /* JSONNode_Mutex.cpp */,
-				24344EB51C1682F5006151D0 /* JSONPreparse.cpp */,
-				24344EB61C1682F5006151D0 /* JSONPreparse.h */,
-				24344EB71C1682F5006151D0 /* JSONSharedString.h */,
-				24344EB81C1682F5006151D0 /* JSONSingleton.h */,
-				24344EB91C1682F5006151D0 /* JSONStats.h */,
-				24344EBA1C1682F5006151D0 /* JSONStream.cpp */,
-				24344EBB1C1682F5006151D0 /* JSONStream.h */,
-				24344EBC1C1682F5006151D0 /* JSONValidator.cpp */,
-				24344EBD1C1682F5006151D0 /* JSONValidator.h */,
-				24344EBE1C1682F5006151D0 /* JSONWorker.cpp */,
-				24344EBF1C1682F5006151D0 /* JSONWorker.h */,
-				24344EC01C1682F5006151D0 /* JSONWriter.cpp */,
-				24344EC11C1682F5006151D0 /* libjson.cpp */,
-				24344EC21C1682F5006151D0 /* NumberToString.h */,
+				24B4522B1C2BE93900B68FFD /* internalJSONNode.cpp */,
+				24B4522C1C2BE93900B68FFD /* internalJSONNode.h */,
+				24B4522D1C2BE93900B68FFD /* JSON_Base64.h */,
+				24B4522E1C2BE93900B68FFD /* JSONAllocator.cpp */,
+				24B4522F1C2BE93900B68FFD /* JSONAllocator.h */,
+				24B452301C2BE93900B68FFD /* JSONChildren.cpp */,
+				24B452311C2BE93900B68FFD /* JSONChildren.h */,
+				24B452321C2BE93900B68FFD /* JSONDebug.cpp */,
+				24B452331C2BE93900B68FFD /* JSONDebug.h */,
+				24B452341C2BE93900B68FFD /* JSONDefs */,
+				24B452391C2BE93900B68FFD /* JSONDefs.h */,
+				24B4523A1C2BE93900B68FFD /* JSONGlobals.h */,
+				24B4523B1C2BE93900B68FFD /* JSONIterators.cpp */,
+				24B4523C1C2BE93900B68FFD /* JSONMemory.cpp */,
+				24B4523D1C2BE93900B68FFD /* JSONMemory.h */,
+				24B4523E1C2BE93900B68FFD /* JSONMemoryPool.h */,
+				24B4523F1C2BE93900B68FFD /* JSONNode.cpp */,
+				24B452401C2BE93900B68FFD /* JSONNode.h */,
+				24B452411C2BE93900B68FFD /* JSONNode_Mutex.cpp */,
+				24B452421C2BE93900B68FFD /* JSONPreparse.cpp */,
+				24B452431C2BE93900B68FFD /* JSONPreparse.h */,
+				24B452441C2BE93900B68FFD /* JSONSharedString.h */,
+				24B452451C2BE93900B68FFD /* JSONSingleton.h */,
+				24B452461C2BE93900B68FFD /* JSONStats.h */,
+				24B452471C2BE93900B68FFD /* JSONStream.cpp */,
+				24B452481C2BE93900B68FFD /* JSONStream.h */,
+				24B452491C2BE93900B68FFD /* JSONValidator.cpp */,
+				24B4524A1C2BE93900B68FFD /* JSONValidator.h */,
+				24B4524B1C2BE93900B68FFD /* JSONWorker.cpp */,
+				24B4524C1C2BE93900B68FFD /* JSONWorker.h */,
+				24B4524D1C2BE93900B68FFD /* JSONWriter.cpp */,
+				24B4524E1C2BE93900B68FFD /* libjson.cpp */,
+				24B4524F1C2BE93900B68FFD /* NumberToString.h */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		24344EA71C1682F5006151D0 /* JSONDefs */ = {
+		24B452341C2BE93900B68FFD /* JSONDefs */ = {
 			isa = PBXGroup;
 			children = (
-				24344EA81C1682F5006151D0 /* GNU_C.h */,
-				24344EA91C1682F5006151D0 /* Strings_Defs.h */,
-				24344EAA1C1682F5006151D0 /* Unknown_C.h */,
-				24344EAB1C1682F5006151D0 /* Visual_C.h */,
+				24B452351C2BE93900B68FFD /* GNU_C.h */,
+				24B452361C2BE93900B68FFD /* Strings_Defs.h */,
+				24B452371C2BE93900B68FFD /* Unknown_C.h */,
+				24B452381C2BE93900B68FFD /* Visual_C.h */,
 			);
 			path = JSONDefs;
+			sourceTree = "<group>";
+		};
+		24B452501C2BE93900B68FFD /* Getting Started */ = {
+			isa = PBXGroup;
+			children = (
+				24B452511C2BE93900B68FFD /* C++ Interface */,
+				24B452561C2BE93900B68FFD /* Library Interface */,
+			);
+			path = "Getting Started";
+			sourceTree = "<group>";
+		};
+		24B452511C2BE93900B68FFD /* C++ Interface */ = {
+			isa = PBXGroup;
+			children = (
+				24B452521C2BE93900B68FFD /* array.htm */,
+				24B452531C2BE93900B68FFD /* basic_parser.htm */,
+				24B452541C2BE93900B68FFD /* child_node.htm */,
+				24B452551C2BE93900B68FFD /* simple_write.htm */,
+			);
+			path = "C++ Interface";
+			sourceTree = "<group>";
+		};
+		24B452561C2BE93900B68FFD /* Library Interface */ = {
+			isa = PBXGroup;
+			children = (
+				24B452571C2BE93900B68FFD /* array.htm */,
+				24B452581C2BE93900B68FFD /* basic_parser.htm */,
+				24B452591C2BE93900B68FFD /* child_node.htm */,
+				24B4525A1C2BE93900B68FFD /* scripts */,
+				24B4525F1C2BE93900B68FFD /* simple_write.htm */,
+				24B452601C2BE93900B68FFD /* styles */,
+			);
+			path = "Library Interface";
+			sourceTree = "<group>";
+		};
+		24B4525A1C2BE93900B68FFD /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				24B4525B1C2BE93900B68FFD /* shAutoloader.js */,
+				24B4525C1C2BE93900B68FFD /* shBrushCpp.js */,
+				24B4525D1C2BE93900B68FFD /* shCore.js */,
+				24B4525E1C2BE93900B68FFD /* shLegacy.js */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		24B452601C2BE93900B68FFD /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				24B452611C2BE93900B68FFD /* shCore.css */,
+				24B452621C2BE93900B68FFD /* shCoreDefault.css */,
+				24B452631C2BE93900B68FFD /* shCoreDjango.css */,
+				24B452641C2BE93900B68FFD /* shCoreEclipse.css */,
+				24B452651C2BE93900B68FFD /* shCoreEmacs.css */,
+				24B452661C2BE93900B68FFD /* shCoreFadeToGrey.css */,
+				24B452671C2BE93900B68FFD /* shCoreMDUltra.css */,
+				24B452681C2BE93900B68FFD /* shCoreMidnight.css */,
+				24B452691C2BE93900B68FFD /* shCoreRDark.css */,
+				24B4526A1C2BE93900B68FFD /* shThemeDefault.css */,
+				24B4526B1C2BE93900B68FFD /* shThemeDjango.css */,
+				24B4526C1C2BE93900B68FFD /* shThemeEclipse.css */,
+				24B4526D1C2BE93900B68FFD /* shThemeEmacs.css */,
+				24B4526E1C2BE93900B68FFD /* shThemeFadeToGrey.css */,
+				24B4526F1C2BE93900B68FFD /* shThemeMDUltra.css */,
+				24B452701C2BE93900B68FFD /* shThemeMidnight.css */,
+				24B452711C2BE93900B68FFD /* shThemeRDark.css */,
+			);
+			path = styles;
 			sourceTree = "<group>";
 		};
 		3E2BDB0719C5E6100055CDCD /* audioengine */ = {
@@ -975,41 +1119,44 @@
 				155C7E1019A71C9D00F08B25 /* lua_extensions.h in Headers */,
 				15415ABF19A71A53004F1E71 /* mime.h in Headers */,
 				15AC69E21987712500D17520 /* tolua_event.h in Headers */,
-				24344F601C1682F5006151D0 /* JSONGlobals.h in Headers */,
+				24B452981C2BE93900B68FFD /* JSONGlobals.h in Headers */,
 				15415AD719A71A53004F1E71 /* udp.h in Headers */,
 				15AC69E31987712500D17520 /* tolua++.h in Headers */,
 				15415ADB19A71A53004F1E71 /* unix.h in Headers */,
-				24344F511C1682F5006151D0 /* mempool.h in Headers */,
+				24B4527A1C2BE93900B68FFD /* mempool.h in Headers */,
 				155C7DF419A71C3700F08B25 /* lua_cocos2dx_3d_manual.h in Headers */,
 				15415ABB19A71A53004F1E71 /* luasocket.h in Headers */,
-				24344F5D1C1682F5006151D0 /* Unknown_C.h in Headers */,
-				24344F641C1682F5006151D0 /* JSONMemoryPool.h in Headers */,
+				24B452921C2BE93900B68FFD /* Unknown_C.h in Headers */,
+				24B452A01C2BE93900B68FFD /* JSONMemoryPool.h in Headers */,
 				159552421A25E4B8001E9FC9 /* lua_cocos2dx_csloader_manual.hpp in Headers */,
 				155C7E2419A71CD800F08B25 /* lua_cocos2dx_experimental_video_manual.hpp in Headers */,
-				24344F531C1682F5006151D0 /* internalJSONNode.h in Headers */,
-				24344F5A1C1682F5006151D0 /* JSONDebug.h in Headers */,
+				24B4527E1C2BE93900B68FFD /* internalJSONNode.h in Headers */,
+				24B452C41C2BE93900B68FFD /* JSONOptions.h in Headers */,
+				24B4528C1C2BE93900B68FFD /* JSONDebug.h in Headers */,
 				15415ACF19A71A53004F1E71 /* tcp.h in Headers */,
 				15415AAB19A71A53004F1E71 /* buffer.h in Headers */,
 				155C7E1419A71CA800F08B25 /* Lua_web_socket.h in Headers */,
-				24344F661C1682F5006151D0 /* JSONNode.h in Headers */,
+				24B452CE1C2BE93900B68FFD /* util_json.h in Headers */,
+				24B452A41C2BE93900B68FFD /* JSONNode.h in Headers */,
 				155C7DF819A71C4400F08B25 /* lua_cocos2dx_cocosdenshion_manual.h in Headers */,
 				F4FE0D7419ECD02400B8B12B /* LuaTouchEventManager.h in Headers */,
-				24344F541C1682F5006151D0 /* JSON_Base64.h in Headers */,
+				24B452801C2BE93900B68FFD /* JSON_Base64.h in Headers */,
 				15415AAF19A71A53004F1E71 /* except.h in Headers */,
+				24B452C61C2BE93900B68FFD /* libjson.h in Headers */,
 				0AF0F2931A7F5871008A3021 /* lua_spSkeletonData.hpp in Headers */,
-				24344F5B1C1682F5006151D0 /* GNU_C.h in Headers */,
-				24344F6E1C1682F5006151D0 /* JSONStream.h in Headers */,
+				24B4528E1C2BE93900B68FFD /* GNU_C.h in Headers */,
+				24B452B41C2BE93900B68FFD /* JSONStream.h in Headers */,
 				150906F319D556D1002C4D97 /* lua_cocos2dx_audioengine_manual.h in Headers */,
-				24344F581C1682F5006151D0 /* JSONChildren.h in Headers */,
+				24B452881C2BE93900B68FFD /* JSONChildren.h in Headers */,
 				155C7E0419A71C6D00F08B25 /* lua_cocos2dx_cocosbuilder_manual.h in Headers */,
-				24344F561C1682F5006151D0 /* JSONAllocator.h in Headers */,
+				24B452841C2BE93900B68FFD /* JSONAllocator.h in Headers */,
 				15415ACB19A71A53004F1E71 /* socket.h in Headers */,
 				15415ADF19A71A53004F1E71 /* usocket.h in Headers */,
-				24344F5F1C1682F5006151D0 /* JSONDefs.h in Headers */,
+				24B452961C2BE93900B68FFD /* JSONDefs.h in Headers */,
 				15415AC319A71A53004F1E71 /* options.h in Headers */,
-				24344F5E1C1682F5006151D0 /* Visual_C.h in Headers */,
+				24B452941C2BE93900B68FFD /* Visual_C.h in Headers */,
 				15C1C2E719874CBE00A46ACC /* CCLuaBridge.h in Headers */,
-				24344F6B1C1682F5006151D0 /* JSONSingleton.h in Headers */,
+				24B452AE1C2BE93900B68FFD /* JSONSingleton.h in Headers */,
 				15C1C2E819874CBE00A46ACC /* CCLuaEngine.h in Headers */,
 				15C1C2E919874CBE00A46ACC /* CCLuaStack.h in Headers */,
 				15C1C2EA19874CBE00A46ACC /* CCLuaValue.h in Headers */,
@@ -1018,18 +1165,18 @@
 				15C1C2EB19874CBE00A46ACC /* Cocos2dxLuaLoader.h in Headers */,
 				15C1C2EC19874CBE00A46ACC /* LuaBasicConversions.h in Headers */,
 				15415AB319A71A53004F1E71 /* inet.h in Headers */,
-				24344F721C1682F5006151D0 /* JSONWorker.h in Headers */,
+				24B452BC1C2BE93900B68FFD /* JSONWorker.h in Headers */,
 				15C1C2ED19874CBE00A46ACC /* CCLuaObjcBridge.h in Headers */,
-				24344F6A1C1682F5006151D0 /* JSONSharedString.h in Headers */,
+				24B452AC1C2BE93900B68FFD /* JSONSharedString.h in Headers */,
 				15C1C2EE19874CBE00A46ACC /* tolua_fix.h in Headers */,
-				24344F691C1682F5006151D0 /* JSONPreparse.h in Headers */,
+				24B452AA1C2BE93900B68FFD /* JSONPreparse.h in Headers */,
 				155C7E2019A71CCC00F08B25 /* LuaSkeletonAnimation.h in Headers */,
 				15415AB719A71A53004F1E71 /* io.h in Headers */,
 				566F016119B5EB0F00FCA620 /* CustomGUIReader.h in Headers */,
 				15C1C2DC19874B4400A46ACC /* xxtea.h in Headers */,
 				15415AD319A71A53004F1E71 /* timeout.h in Headers */,
-				24344F701C1682F5006151D0 /* JSONValidator.h in Headers */,
-				24344F5C1C1682F5006151D0 /* Strings_Defs.h in Headers */,
+				24B452B81C2BE93900B68FFD /* JSONValidator.h in Headers */,
+				24B452901C2BE93900B68FFD /* Strings_Defs.h in Headers */,
 				15C1C2D5198749BC00A46ACC /* LuaOpengl.h in Headers */,
 				155C7E2819A71CE600F08B25 /* lua_cocos2dx_ui_manual.hpp in Headers */,
 				15C1C2D6198749BC00A46ACC /* lua_cocos2dx_deprecated.h in Headers */,
@@ -1039,28 +1186,25 @@
 				F4FE0D6819ECD02400B8B12B /* lua_cocos2dx_quick_manual.hpp in Headers */,
 				15C1C2D8198749BC00A46ACC /* lua_cocos2dx_manual.hpp in Headers */,
 				155C7E0819A71C7B00F08B25 /* lua_cocos2dx_extension_manual.h in Headers */,
+				24B452CA1C2BE93900B68FFD /* lua_jsonInterface.h in Headers */,
 				155C7E1819A71CB300F08B25 /* lua_xml_http_request.h in Headers */,
-				24344FC71C1682F5006151D0 /* libjson.h in Headers */,
 				155C7DFC19A71C5300F08B25 /* lua_cocos2dx_coco_studio_manual.hpp in Headers */,
 				241A74F51C1047D800C34841 /* lua_dragonbones_auto.hpp in Headers */,
 				15C1C2D9198749BC00A46ACC /* lua_cocos2dx_physics_manual.hpp in Headers */,
-				24344F501C1682F5006151D0 /* libbase64++.h in Headers */,
-				24344FC61C1682F5006151D0 /* JSONOptions.h in Headers */,
-				24344FCA1C1682F5006151D0 /* lua_jsonInterface.h in Headers */,
+				24B452781C2BE93900B68FFD /* libbase64++.h in Headers */,
 				15C1C2DA198749BC00A46ACC /* LuaScriptHandlerMgr.h in Headers */,
-				24344F6C1C1682F5006151D0 /* JSONStats.h in Headers */,
-				24344F751C1682F5006151D0 /* NumberToString.h in Headers */,
+				24B452B01C2BE93900B68FFD /* JSONStats.h in Headers */,
+				24B452C21C2BE93900B68FFD /* NumberToString.h in Headers */,
 				15AC69D619876EA200D17520 /* lua_cocos2dx_physics_auto.hpp in Headers */,
 				155C7E0019A71C6000F08B25 /* CCBProxy.h in Headers */,
 				F4FE0D7819ECD02400B8B12B /* LuaTouchTargetNode.h in Headers */,
-				24344FCC1C1682F5006151D0 /* util_json.h in Headers */,
 				15415AC719A71A53004F1E71 /* select.h in Headers */,
 				155C7E1C19A71CC200F08B25 /* lua_cocos2dx_spine_manual.hpp in Headers */,
 				15C1C2D41987499F00A46ACC /* lua_cocos2dx_auto.hpp in Headers */,
 				150906F119D556C8002C4D97 /* lua_cocos2dx_audioengine_auto.hpp in Headers */,
 				DA1769F31A1A0D12006F5EA8 /* lua_cocos2dx_assetsmanager_auto.hpp in Headers */,
 				F4FE0D5919ECD00100B8B12B /* luasocket_scripts.h in Headers */,
-				24344F631C1682F5006151D0 /* JSONMemory.h in Headers */,
+				24B4529E1C2BE93900B68FFD /* JSONMemory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1073,26 +1217,44 @@
 				15415AC019A71A53004F1E71 /* mime.h in Headers */,
 				15415AD819A71A53004F1E71 /* udp.h in Headers */,
 				15415ADC19A71A53004F1E71 /* unix.h in Headers */,
+				24B452991C2BE93900B68FFD /* JSONGlobals.h in Headers */,
 				155C7DF519A71C3900F08B25 /* lua_cocos2dx_3d_manual.h in Headers */,
 				15415ABC19A71A53004F1E71 /* luasocket.h in Headers */,
 				159552431A25E4B8001E9FC9 /* lua_cocos2dx_csloader_manual.hpp in Headers */,
+				24B4527B1C2BE93900B68FFD /* mempool.h in Headers */,
 				155C7E2519A71CDA00F08B25 /* lua_cocos2dx_experimental_video_manual.hpp in Headers */,
 				15415AD019A71A53004F1E71 /* tcp.h in Headers */,
+				24B452931C2BE93900B68FFD /* Unknown_C.h in Headers */,
+				24B452A11C2BE93900B68FFD /* JSONMemoryPool.h in Headers */,
 				15415AAC19A71A53004F1E71 /* buffer.h in Headers */,
 				155C7E1519A71CAA00F08B25 /* Lua_web_socket.h in Headers */,
+				24B4527F1C2BE93900B68FFD /* internalJSONNode.h in Headers */,
+				24B452C51C2BE93900B68FFD /* JSONOptions.h in Headers */,
+				24B4528D1C2BE93900B68FFD /* JSONDebug.h in Headers */,
 				15EFA64B198B3320000C57D3 /* tolua_event.h in Headers */,
 				15EFA64C198B3320000C57D3 /* tolua++.h in Headers */,
 				155C7DF919A71C4500F08B25 /* lua_cocos2dx_cocosdenshion_manual.h in Headers */,
+				24B452CF1C2BE93900B68FFD /* util_json.h in Headers */,
+				24B452A51C2BE93900B68FFD /* JSONNode.h in Headers */,
 				F4FE0D7519ECD02400B8B12B /* LuaTouchEventManager.h in Headers */,
 				15415AB019A71A53004F1E71 /* except.h in Headers */,
+				24B452811C2BE93900B68FFD /* JSON_Base64.h in Headers */,
 				3E2BDB0B19C5E6100055CDCD /* lua_cocos2dx_audioengine_manual.h in Headers */,
+				24B452C71C2BE93900B68FFD /* libjson.h in Headers */,
 				0AF0F2941A7F5871008A3021 /* lua_spSkeletonData.hpp in Headers */,
+				24B4528F1C2BE93900B68FFD /* GNU_C.h in Headers */,
+				24B452B51C2BE93900B68FFD /* JSONStream.h in Headers */,
 				155C7E0519A71C6F00F08B25 /* lua_cocos2dx_cocosbuilder_manual.h in Headers */,
+				24B452891C2BE93900B68FFD /* JSONChildren.h in Headers */,
 				15415ACC19A71A53004F1E71 /* socket.h in Headers */,
+				24B452851C2BE93900B68FFD /* JSONAllocator.h in Headers */,
 				15415AE019A71A53004F1E71 /* usocket.h in Headers */,
 				15415AC419A71A53004F1E71 /* options.h in Headers */,
+				24B452971C2BE93900B68FFD /* JSONDefs.h in Headers */,
 				15EFA644198B32D5000C57D3 /* xxtea.h in Headers */,
+				24B452951C2BE93900B68FFD /* Visual_C.h in Headers */,
 				15EFA63B198B32BB000C57D3 /* CCLuaBridge.h in Headers */,
+				24B452AF1C2BE93900B68FFD /* JSONSingleton.h in Headers */,
 				15EFA63C198B32BB000C57D3 /* CCLuaEngine.h in Headers */,
 				15EFA63D198B32BB000C57D3 /* CCLuaStack.h in Headers */,
 				15EFA63E198B32BB000C57D3 /* CCLuaValue.h in Headers */,
@@ -1101,13 +1263,18 @@
 				15EFA63F198B32BB000C57D3 /* Cocos2dxLuaLoader.h in Headers */,
 				15EFA640198B32BB000C57D3 /* LuaBasicConversions.h in Headers */,
 				15415AB419A71A53004F1E71 /* inet.h in Headers */,
+				24B452BD1C2BE93900B68FFD /* JSONWorker.h in Headers */,
 				15EFA641198B32BB000C57D3 /* CCLuaObjcBridge.h in Headers */,
+				24B452AD1C2BE93900B68FFD /* JSONSharedString.h in Headers */,
 				15EFA642198B32BB000C57D3 /* tolua_fix.h in Headers */,
+				24B452AB1C2BE93900B68FFD /* JSONPreparse.h in Headers */,
 				155C7E2119A71CCE00F08B25 /* LuaSkeletonAnimation.h in Headers */,
 				15415AB819A71A53004F1E71 /* io.h in Headers */,
 				566F016219B5EB0F00FCA620 /* CustomGUIReader.h in Headers */,
 				15EFA62B198B3220000C57D3 /* LuaOpengl.h in Headers */,
 				15415AD419A71A53004F1E71 /* timeout.h in Headers */,
+				24B452B91C2BE93900B68FFD /* JSONValidator.h in Headers */,
+				24B452911C2BE93900B68FFD /* Strings_Defs.h in Headers */,
 				15EFA62C198B3220000C57D3 /* lua_cocos2dx_deprecated.h in Headers */,
 				155C7E2919A71CE800F08B25 /* lua_cocos2dx_ui_manual.hpp in Headers */,
 				15EFA62D198B3220000C57D3 /* lua_cocos2dx_experimental_manual.hpp in Headers */,
@@ -1117,10 +1284,15 @@
 				F4FE0D6919ECD02400B8B12B /* lua_cocos2dx_quick_manual.hpp in Headers */,
 				15EFA62F198B3220000C57D3 /* lua_cocos2dx_physics_manual.hpp in Headers */,
 				155C7E0919A71C8500F08B25 /* lua_cocos2dx_extension_manual.h in Headers */,
+				24B452CB1C2BE93900B68FFD /* lua_jsonInterface.h in Headers */,
 				155C7E1919A71CB500F08B25 /* lua_xml_http_request.h in Headers */,
 				155C7DFD19A71C5400F08B25 /* lua_cocos2dx_coco_studio_manual.hpp in Headers */,
+				24B452201C2BE8AA00B68FFD /* lua_dragonbones_auto.hpp in Headers */,
 				15EFA630198B3220000C57D3 /* LuaScriptHandlerMgr.h in Headers */,
+				24B452791C2BE93900B68FFD /* libbase64++.h in Headers */,
 				15EFA622198B2E74000C57D3 /* lua_cocos2dx_experimental_auto.hpp in Headers */,
+				24B452B11C2BE93900B68FFD /* JSONStats.h in Headers */,
+				24B452C31C2BE93900B68FFD /* NumberToString.h in Headers */,
 				15EFA623198B2E74000C57D3 /* lua_cocos2dx_auto.hpp in Headers */,
 				155C7E0119A71C6300F08B25 /* CCBProxy.h in Headers */,
 				F4FE0D7919ECD02400B8B12B /* LuaTouchTargetNode.h in Headers */,
@@ -1130,6 +1302,7 @@
 				3E2BDB0619C5E5FE0055CDCD /* lua_cocos2dx_audioengine_auto.hpp in Headers */,
 				DA1769F41A1A0D12006F5EA8 /* lua_cocos2dx_assetsmanager_auto.hpp in Headers */,
 				F4FE0D5A19ECD00100B8B12B /* luasocket_scripts.h in Headers */,
+				24B4529F1C2BE93900B68FFD /* JSONMemory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1204,7 +1377,7 @@
 			files = (
 				15415A7219A718FB004F1E71 /* lua_cocos2dx_3d_auto.cpp in Sources */,
 				15415A7319A718FB004F1E71 /* lua_cocos2dx_cocosbuilder_auto.cpp in Sources */,
-				24344F651C1682F5006151D0 /* JSONNode.cpp in Sources */,
+				24B452A21C2BE93900B68FFD /* JSONNode.cpp in Sources */,
 				150906F219D556CE002C4D97 /* lua_cocos2dx_audioengine_manual.cpp in Sources */,
 				15415A7519A718FB004F1E71 /* lua_cocos2dx_experimental_video_auto.cpp in Sources */,
 				15415A7619A718FB004F1E71 /* lua_cocos2dx_ui_auto.cpp in Sources */,
@@ -1219,13 +1392,13 @@
 				15415ADD19A71A53004F1E71 /* usocket.c in Sources */,
 				DA1769F71A1B1351006F5EA8 /* lua_cocos2dx_csloader_auto.cpp in Sources */,
 				15AC69DC1987710400D17520 /* tolua_push.c in Sources */,
-				24344F6D1C1682F5006151D0 /* JSONStream.cpp in Sources */,
+				24B452B21C2BE93900B68FFD /* JSONStream.cpp in Sources */,
 				15AC69DD1987710400D17520 /* tolua_to.c in Sources */,
 				15415AAD19A71A53004F1E71 /* except.c in Sources */,
-				24344F6F1C1682F5006151D0 /* JSONValidator.cpp in Sources */,
-				24344F621C1682F5006151D0 /* JSONMemory.cpp in Sources */,
+				24B452B61C2BE93900B68FFD /* JSONValidator.cpp in Sources */,
+				24B4529C1C2BE93900B68FFD /* JSONMemory.cpp in Sources */,
 				15415ABD19A71A53004F1E71 /* mime.c in Sources */,
-				24344F671C1682F5006151D0 /* JSONNode_Mutex.cpp in Sources */,
+				24B452A61C2BE93900B68FFD /* JSONNode_Mutex.cpp in Sources */,
 				15C1C2E519874C9200A46ACC /* CCLuaObjcBridge.mm in Sources */,
 				155C7E1619A71CAD00F08B25 /* lua_xml_http_request.cpp in Sources */,
 				15C1C2E419874C7C00A46ACC /* tolua_fix.cpp in Sources */,
@@ -1233,7 +1406,7 @@
 				15C1C2E219874BA100A46ACC /* LuaBasicConversions.cpp in Sources */,
 				F4FE0D5719ECD00100B8B12B /* luasocket_scripts.c in Sources */,
 				15415AC519A71A53004F1E71 /* select.c in Sources */,
-				24344F681C1682F5006151D0 /* JSONPreparse.cpp in Sources */,
+				24B452A81C2BE93900B68FFD /* JSONPreparse.cpp in Sources */,
 				155C7DFE19A71C5A00F08B25 /* CCBProxy.cpp in Sources */,
 				15415AD919A71A53004F1E71 /* unix.c in Sources */,
 				155C7E0619A71C7600F08B25 /* lua_cocos2dx_extension_manual.cpp in Sources */,
@@ -1241,19 +1414,21 @@
 				15C1C2DE19874B8800A46ACC /* CCLuaEngine.cpp in Sources */,
 				15415AC919A71A53004F1E71 /* serial.c in Sources */,
 				155C7E0219A71C6700F08B25 /* lua_cocos2dx_cocosbuilder_manual.cpp in Sources */,
+				24B452C81C2BE93900B68FFD /* lua_jsonInterface.cpp in Sources */,
 				15C1C2DF19874B8800A46ACC /* CCLuaStack.cpp in Sources */,
 				F4FE0D6619ECD02400B8B12B /* lua_cocos2dx_quick_manual.cpp in Sources */,
 				F4FE0D6E19ECD02400B8B12B /* LuaNodeManager.cpp in Sources */,
 				15C1C2E019874B8800A46ACC /* CCLuaValue.cpp in Sources */,
-				24344F711C1682F5006151D0 /* JSONWorker.cpp in Sources */,
+				24B452BA1C2BE93900B68FFD /* JSONWorker.cpp in Sources */,
 				DA1769F11A1A0D12006F5EA8 /* lua_cocos2dx_assetsmanager_auto.cpp in Sources */,
 				155C7DF219A71C3200F08B25 /* lua_cocos2dx_3d_manual.cpp in Sources */,
 				15415AB119A71A53004F1E71 /* inet.c in Sources */,
 				15C1C2E119874B8800A46ACC /* Cocos2dxLuaLoader.cpp in Sources */,
-				24344F591C1682F5006151D0 /* JSONDebug.cpp in Sources */,
+				24B4528A1C2BE93900B68FFD /* JSONDebug.cpp in Sources */,
 				15C1C2DB19874B3D00A46ACC /* xxtea.cpp in Sources */,
 				155C7E0E19A71C9600F08B25 /* lua_extensions.c in Sources */,
 				15EFA1F61989E528000C57D3 /* lua_cocos2dx_experimental_auto.cpp in Sources */,
+				24B452CC1C2BE93900B68FFD /* util_json.cpp in Sources */,
 				15AC69D519876E9300D17520 /* lua_cocos2dx_physics_auto.cpp in Sources */,
 				155C7E1E19A71CC700F08B25 /* LuaSkeletonAnimation.cpp in Sources */,
 				15415AB519A71A53004F1E71 /* io.c in Sources */,
@@ -1263,18 +1438,18 @@
 				150906F019D556C5002C4D97 /* lua_cocos2dx_audioengine_auto.cpp in Sources */,
 				F4FE0D7619ECD02400B8B12B /* LuaTouchTargetNode.cpp in Sources */,
 				155C7E0A19A71C8B00F08B25 /* lua_cocos2dx_network_manual.cpp in Sources */,
-				24344F741C1682F5006151D0 /* libjson.cpp in Sources */,
+				24B452C01C2BE93900B68FFD /* libjson.cpp in Sources */,
 				15415AD119A71A53004F1E71 /* timeout.c in Sources */,
 				15C1C2CF1987498B00A46ACC /* lua_cocos2dx_deprecated.cpp in Sources */,
 				155C7E2219A71CD300F08B25 /* lua_cocos2dx_experimental_video_manual.cpp in Sources */,
 				155C7DFA19A71C4C00F08B25 /* lua_cocos2dx_coco_studio_manual.cpp in Sources */,
-				24344F551C1682F5006151D0 /* JSONAllocator.cpp in Sources */,
+				24B452821C2BE93900B68FFD /* JSONAllocator.cpp in Sources */,
 				155C7E2619A71CDD00F08B25 /* lua_cocos2dx_ui_manual.cpp in Sources */,
 				F4FE0D6A19ECD02400B8B12B /* LuaEventNode.cpp in Sources */,
-				24344F571C1682F5006151D0 /* JSONChildren.cpp in Sources */,
+				24B452861C2BE93900B68FFD /* JSONChildren.cpp in Sources */,
 				F4FE0D7219ECD02400B8B12B /* LuaTouchEventManager.cpp in Sources */,
 				0AF0F2911A7F5871008A3021 /* lua_spSkeletonData.cpp in Sources */,
-				24344F521C1682F5006151D0 /* internalJSONNode.cpp in Sources */,
+				24B4527C1C2BE93900B68FFD /* internalJSONNode.cpp in Sources */,
 				15415A7019A71768004F1E71 /* lua_cocos2dx_extension_auto.cpp in Sources */,
 				155C7DF619A71C3E00F08B25 /* lua_cocos2dx_cocosdenshion_manual.cpp in Sources */,
 				15415AA519A71A53004F1E71 /* auxiliar.c in Sources */,
@@ -1282,15 +1457,13 @@
 				15C1C2D01987498B00A46ACC /* lua_cocos2dx_experimental_manual.cpp in Sources */,
 				15C1C2D11987498B00A46ACC /* lua_cocos2dx_manual.cpp in Sources */,
 				15C1C2D21987498B00A46ACC /* lua_cocos2dx_physics_manual.cpp in Sources */,
-				24344F731C1682F5006151D0 /* JSONWriter.cpp in Sources */,
-				24344FCB1C1682F5006151D0 /* util_json.cpp in Sources */,
+				24B452BE1C2BE93900B68FFD /* JSONWriter.cpp in Sources */,
 				15C1C2D31987498B00A46ACC /* LuaScriptHandlerMgr.cpp in Sources */,
 				15415AA919A71A53004F1E71 /* buffer.c in Sources */,
 				15C1C2CD1987495500A46ACC /* lua_cocos2dx_auto.cpp in Sources */,
 				15415AB919A71A53004F1E71 /* luasocket.c in Sources */,
-				24344F611C1682F5006151D0 /* JSONIterators.cpp in Sources */,
+				24B4529A1C2BE93900B68FFD /* JSONIterators.cpp in Sources */,
 				159552401A25E4B8001E9FC9 /* lua_cocos2dx_csloader_manual.cpp in Sources */,
-				24344FC91C1682F5006151D0 /* lua_jsonInterface.cpp in Sources */,
 				155C7E1219A71CA200F08B25 /* Lua_web_socket.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1301,6 +1474,7 @@
 			files = (
 				15415AC619A71A53004F1E71 /* select.c in Sources */,
 				15EFA646198B3311000C57D3 /* tolua_event.c in Sources */,
+				24B452A31C2BE93900B68FFD /* JSONNode.cpp in Sources */,
 				3E2BDB0A19C5E6100055CDCD /* lua_cocos2dx_audioengine_manual.cpp in Sources */,
 				15415AA619A71A53004F1E71 /* auxiliar.c in Sources */,
 				15EFA647198B3311000C57D3 /* tolua_is.c in Sources */,
@@ -1315,15 +1489,21 @@
 				15EFA634198B328B000C57D3 /* CCLuaStack.cpp in Sources */,
 				DA1769F81A1B1351006F5EA8 /* lua_cocos2dx_csloader_auto.cpp in Sources */,
 				15EFA635198B328B000C57D3 /* CCLuaValue.cpp in Sources */,
+				24B452B31C2BE93900B68FFD /* JSONStream.cpp in Sources */,
 				15EFA636198B328B000C57D3 /* Cocos2dxLuaLoader.cpp in Sources */,
 				155C7DEB19A71BE900F08B25 /* lua_cocos2dx_cocosbuilder_auto.cpp in Sources */,
+				24B452B71C2BE93900B68FFD /* JSONValidator.cpp in Sources */,
+				24B4529D1C2BE93900B68FFD /* JSONMemory.cpp in Sources */,
 				15EFA637198B328B000C57D3 /* LuaBasicConversions.cpp in Sources */,
+				24B452A71C2BE93900B68FFD /* JSONNode_Mutex.cpp in Sources */,
 				15EFA638198B328B000C57D3 /* CCLuaObjcBridge.mm in Sources */,
 				155C7E1719A71CAF00F08B25 /* lua_xml_http_request.cpp in Sources */,
 				15415ACE19A71A53004F1E71 /* tcp.c in Sources */,
+				24B452211C2BE8AD00B68FFD /* lua_dragonbones_auto.cpp in Sources */,
 				15415AD219A71A53004F1E71 /* timeout.c in Sources */,
 				F4FE0D5819ECD00100B8B12B /* luasocket_scripts.c in Sources */,
 				15EFA639198B328B000C57D3 /* tolua_fix.cpp in Sources */,
+				24B452A91C2BE93900B68FFD /* JSONPreparse.cpp in Sources */,
 				155C7DFF19A71C5C00F08B25 /* CCBProxy.cpp in Sources */,
 				155C7DF019A71C1E00F08B25 /* lua_cocos2dx_spine_auto.cpp in Sources */,
 				155C7E0719A71C7800F08B25 /* lua_cocos2dx_extension_manual.cpp in Sources */,
@@ -1331,17 +1511,21 @@
 				15EFA626198B31FB000C57D3 /* lua_cocos2dx_deprecated.cpp in Sources */,
 				15EFA627198B31FB000C57D3 /* lua_cocos2dx_experimental_manual.cpp in Sources */,
 				155C7E0319A71C6900F08B25 /* lua_cocos2dx_cocosbuilder_manual.cpp in Sources */,
+				24B452C91C2BE93900B68FFD /* lua_jsonInterface.cpp in Sources */,
 				15415ABE19A71A53004F1E71 /* mime.c in Sources */,
 				F4FE0D6719ECD02400B8B12B /* lua_cocos2dx_quick_manual.cpp in Sources */,
 				F4FE0D6F19ECD02400B8B12B /* LuaNodeManager.cpp in Sources */,
 				15415ADA19A71A53004F1E71 /* unix.c in Sources */,
+				24B452BB1C2BE93900B68FFD /* JSONWorker.cpp in Sources */,
 				DA1769F21A1A0D12006F5EA8 /* lua_cocos2dx_assetsmanager_auto.cpp in Sources */,
 				155C7DF319A71C3400F08B25 /* lua_cocos2dx_3d_manual.cpp in Sources */,
 				15415ADE19A71A53004F1E71 /* usocket.c in Sources */,
 				155C7DED19A71BF400F08B25 /* lua_cocos2dx_cocosdenshion_auto.cpp in Sources */,
+				24B4528B1C2BE93900B68FFD /* JSONDebug.cpp in Sources */,
 				15EFA628198B31FB000C57D3 /* lua_cocos2dx_manual.cpp in Sources */,
 				155C7E0F19A71C9800F08B25 /* lua_extensions.c in Sources */,
 				15415AD619A71A53004F1E71 /* udp.c in Sources */,
+				24B452CD1C2BE93900B68FFD /* util_json.cpp in Sources */,
 				15415ABA19A71A53004F1E71 /* luasocket.c in Sources */,
 				155C7E1F19A71CC800F08B25 /* LuaSkeletonAnimation.cpp in Sources */,
 				15415ACA19A71A53004F1E71 /* serial.c in Sources */,
@@ -1351,14 +1535,18 @@
 				3E2BDB0519C5E5FE0055CDCD /* lua_cocos2dx_audioengine_auto.cpp in Sources */,
 				F4FE0D7719ECD02400B8B12B /* LuaTouchTargetNode.cpp in Sources */,
 				155C7E0B19A71C8D00F08B25 /* lua_cocos2dx_network_manual.cpp in Sources */,
+				24B452C11C2BE93900B68FFD /* libjson.cpp in Sources */,
 				15415AAE19A71A53004F1E71 /* except.c in Sources */,
 				15415AAA19A71A53004F1E71 /* buffer.c in Sources */,
 				155C7E2319A71CD500F08B25 /* lua_cocos2dx_experimental_video_manual.cpp in Sources */,
 				155C7DFB19A71C4E00F08B25 /* lua_cocos2dx_coco_studio_manual.cpp in Sources */,
+				24B452831C2BE93900B68FFD /* JSONAllocator.cpp in Sources */,
 				155C7E2719A71CDE00F08B25 /* lua_cocos2dx_ui_manual.cpp in Sources */,
 				F4FE0D6B19ECD02400B8B12B /* LuaEventNode.cpp in Sources */,
+				24B452871C2BE93900B68FFD /* JSONChildren.cpp in Sources */,
 				F4FE0D7319ECD02400B8B12B /* LuaTouchEventManager.cpp in Sources */,
 				0AF0F2921A7F5871008A3021 /* lua_spSkeletonData.cpp in Sources */,
+				24B4527D1C2BE93900B68FFD /* internalJSONNode.cpp in Sources */,
 				15415AB619A71A53004F1E71 /* io.c in Sources */,
 				155C7DF719A71C4000F08B25 /* lua_cocos2dx_cocosdenshion_manual.cpp in Sources */,
 				155C7DEF19A71C0900F08B25 /* lua_cocos2dx_ui_auto.cpp in Sources */,
@@ -1366,10 +1554,12 @@
 				15415A7119A71782004F1E71 /* lua_cocos2dx_extension_auto.cpp in Sources */,
 				15EFA629198B31FB000C57D3 /* lua_cocos2dx_physics_manual.cpp in Sources */,
 				15EFA62A198B31FB000C57D3 /* LuaScriptHandlerMgr.cpp in Sources */,
+				24B452BF1C2BE93900B68FFD /* JSONWriter.cpp in Sources */,
 				15EFA617198B2E2B000C57D3 /* lua_cocos2dx_experimental_auto.cpp in Sources */,
 				15EFA618198B2E2B000C57D3 /* lua_cocos2dx_auto.cpp in Sources */,
 				15EFA619198B2E2B000C57D3 /* lua_cocos2dx_physics_auto.cpp in Sources */,
 				15415AB219A71A53004F1E71 /* inet.c in Sources */,
+				24B4529B1C2BE93900B68FFD /* JSONIterators.cpp in Sources */,
 				159552411A25E4B8001E9FC9 /* lua_cocos2dx_csloader_manual.cpp in Sources */,
 				155C7E1319A71CA400F08B25 /* Lua_web_socket.cpp in Sources */,
 			);
@@ -1391,9 +1581,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DRAGON_BONES_ENABLE_LUA=1",
 					"COCOS2D_DEBUG=1",
-					USE_FILE32API,
-					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -1411,7 +1600,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../.. $(SRCROOT)/../../.. $(SRCROOT)/../../../base $(SRCROOT)/../../../3d $(SRCROOT)/../../../2d $(SRCROOT)/../../../deprecated $(SRCROOT)/../../../physics $(SRCROOT)/../../../math/kazmath $(SRCROOT)/../../../2d/platform $(SRCROOT)/../../../audio/include $(SRCROOT)/../../../editor-support $(SRCROOT)/../../../editor-support/spine $(SRCROOT)/../../../editor-support/cocostudio $(SRCROOT)/../../../editor-support/cocosbuilder $(SRCROOT)/../../../ui $(SRCROOT)/../../../storage $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/lua $(SRCROOT)/../../../../external/lua/luajit/include $(SRCROOT)/../../../../external/lua/tolua $(SRCROOT)/../../../editor-support/cocostudio/ActionTimeline";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../.. $(SRCROOT)/../../.. $(SRCROOT)/../../../base $(SRCROOT)/../../../3d $(SRCROOT)/../../../2d $(SRCROOT)/../../../deprecated $(SRCROOT)/../../../physics $(SRCROOT)/../../../math/kazmath $(SRCROOT)/../../../2d/platform $(SRCROOT)/../../../audio/include $(SRCROOT)/../../../editor-support $(SRCROOT)/../../../editor-support/spine $(SRCROOT)/../../../editor-support/cocostudio $(SRCROOT)/../../../editor-support/cocosbuilder $(SRCROOT)/../../../ui $(SRCROOT)/../../../storage $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/lua $(SRCROOT)/../../../../external/lua/luajit/include $(SRCROOT)/../../../../external/lua/tolua $(SRCROOT)/../../../editor-support/cocostudio/ActionTimeline \"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones/renderer/cocos2d-x-3.x\" \"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones\" \"$(QUICK_V3_ROOT)/ scripting/lua-bindings/manual/json\" \"$(QUICK_V3_ROOT)/ scripting/lua-bindings/manual/json/libjson\"";
 			};
 			name = Debug;
 		};
@@ -1428,6 +1617,7 @@
 					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
 					NDEBUG,
 					USE_FILE32API,
+					"DRAGON_BONES_ENABLE_LUA=1",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
@@ -1444,7 +1634,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../.. $(SRCROOT)/../../.. $(SRCROOT)/../../../base $(SRCROOT)/../../../3d $(SRCROOT)/../../../2d $(SRCROOT)/../../../deprecated $(SRCROOT)/../../../physics $(SRCROOT)/../../../math/kazmath $(SRCROOT)/../../../2d/platform $(SRCROOT)/../../../audio/include $(SRCROOT)/../../../editor-support $(SRCROOT)/../../../editor-support/spine $(SRCROOT)/../../../editor-support/cocostudio $(SRCROOT)/../../../editor-support/cocosbuilder $(SRCROOT)/../../../ui $(SRCROOT)/../../../storage $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/lua $(SRCROOT)/../../../../external/lua/luajit/include $(SRCROOT)/../../../../external/lua/tolua $(SRCROOT)/../../../editor-support/cocostudio/ActionTimeline";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../.. $(SRCROOT)/../../.. $(SRCROOT)/../../../base $(SRCROOT)/../../../3d $(SRCROOT)/../../../2d $(SRCROOT)/../../../deprecated $(SRCROOT)/../../../physics $(SRCROOT)/../../../math/kazmath $(SRCROOT)/../../../2d/platform $(SRCROOT)/../../../audio/include $(SRCROOT)/../../../editor-support $(SRCROOT)/../../../editor-support/spine $(SRCROOT)/../../../editor-support/cocostudio $(SRCROOT)/../../../editor-support/cocosbuilder $(SRCROOT)/../../../ui $(SRCROOT)/../../../storage $(SRCROOT)/../../../../extensions $(SRCROOT)/../../../../external $(SRCROOT)/../../../../external/chipmunk/include/chipmunk $(SRCROOT)/../../../../external/lua $(SRCROOT)/../../../../external/lua/luajit/include $(SRCROOT)/../../../../external/lua/tolua $(SRCROOT)/../../../editor-support/cocostudio/ActionTimeline \"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones/renderer/cocos2d-x-3.x\" \"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones\" \"$(QUICK_V3_ROOT)/ scripting/lua-bindings/manual/json\" \"$(QUICK_V3_ROOT)/ scripting/lua-bindings/manual/json/libjson\"";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1458,18 +1648,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DRAGON_BONES_ENABLE_LUA=1",
 					"COCOS2D_DEBUG=1",
+					"DRAGON_BONES_ENABLE_LUA=1",
 				);
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../../external/lua/luajit/prebuilt/mac",
-					"/Users/zhujunfeng/quick-x-3/external/lua/lua/prebuilt/ios",
-				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../../external/lua/luajit/prebuilt/mac";
 				PRODUCT_NAME = "libluacocos2d Mac";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../platform/mac $(SRCROOT)/../../../../external/glfw3/include/mac $(SRCROOT)/../../../editor-support/dragonbones/renderer/cocos2d-x-3.x $(SRCROOT)/../../../editor-support/dragonbones $(SRCROOT)/../../../json/liblson $(SRCROOT)/../../../json";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../platform/mac $(SRCROOT)/../../../../external/glfw3/include/mac";
 			};
 			name = Debug;
 		};
@@ -1483,18 +1670,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DRAGON_BONES_ENABLE_LUA=1",
 					"COCOS2D_DEBUG=1",
+					"DRAGON_BONES_ENABLE_LUA=1",
 				);
 				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../../external/lua/luajit/prebuilt/mac",
-					"/Users/zhujunfeng/quick-x-3/external/lua/lua/prebuilt/ios",
-				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../../external/lua/luajit/prebuilt/mac";
 				PRODUCT_NAME = "libluacocos2d Mac";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../platform/mac $(SRCROOT)/../../../../external/glfw3/include/mac $(SRCROOT)/../../../editor-support/dragonbones/renderer/cocos2d-x-3.x $(SRCROOT)/../../../editor-support/dragonbones $(SRCROOT)/../../../json/liblson $(SRCROOT)/../../../json";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../platform/mac $(SRCROOT)/../../../../external/glfw3/include/mac";
 			};
 			name = Release;
 		};
@@ -1509,19 +1693,19 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					CC_TARGET_OS_IPHONE,
+					"DRAGON_BONES_ENABLE_LUA=1",
 				);
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../../external/lua/luajit/prebuilt/ios",
-					"$(SRCROOT)/../../../../external/lua/lua/prebuilt/ios",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../../external/lua/luajit/prebuilt/ios";
+				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphonesimulator7.1]" = "-llua";
 				"OTHER_LDFLAGS[sdk=iphonesimulator8.0]" = "-llua";
 				PRODUCT_NAME = "libluacocos2d iOS";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../platform/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/../../../platform/ios\"";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Debug;
 		};
@@ -1537,19 +1721,19 @@
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					CC_TARGET_OS_IPHONE,
+					"DRAGON_BONES_ENABLE_LUA=1",
 				);
 				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../../external/lua/luajit/prebuilt/ios",
-					"$(SRCROOT)/../../../../external/lua/lua/prebuilt/ios",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../../../../external/lua/luajit/prebuilt/ios";
+				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphonesimulator7.1]" = "-llua";
 				"OTHER_LDFLAGS[sdk=iphonesimulator8.0]" = "-llua";
 				PRODUCT_NAME = "libluacocos2d iOS";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../platform/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)/../../../platform/ios\"";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Release;
 		};

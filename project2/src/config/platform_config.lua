@@ -1,7 +1,7 @@
-if device.platform == "ios" then
-    PLATFORM_SDK = require("Platform_iOS")
-    PLATFORM_SDK.init()
-end
+-- if device.platform == "ios" then
+--     PLATFORM_SDK = require("Platform_iOS")
+--     PLATFORM_SDK.init()
+-- end
 
 function isPlatform()
     if PLATFORM == "360" or PLATFORM == "xiaomi" or PLATFORM == "lenovo" 

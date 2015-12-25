@@ -1689,6 +1689,8 @@
 					"\"$(QUICK_V3_ROOT)/quick/lib/quick-src\"",
 					"\"$(QUICK_V3_ROOT)/quick/lib/quick-src/extra\"",
 					"\"$(QUICK_V3_ROOT)/external/protobuf-lite/src\"",
+					"\"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones\"",
+					"\"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones/renderer/cocos2d-x-3.x\"",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
@@ -1738,6 +1740,8 @@
 					"\"$(QUICK_V3_ROOT)/quick/lib/quick-src\"",
 					"\"$(QUICK_V3_ROOT)/quick/lib/quick-src/extra\"",
 					"\"$(QUICK_V3_ROOT)/external/protobuf-lite/src\"",
+					"\"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones\"",
+					"\"$(QUICK_V3_ROOT)/cocos/editor-support/dragonbones/renderer/cocos2d-x-3.x\"",
 				);
 				INFOPLIST_FILE = ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;

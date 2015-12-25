@@ -192,9 +192,7 @@ bool LuaStack::init(void)
     register_all_cocos2dx_experimental_manual(_state);
 
     register_glnode_manual(_state);
-    register_all_dragonbones(_state);
     
-    luaopen_util_json(_state);
 #if CC_USE_PHYSICS
     register_all_cocos2dx_physics(_state);
     register_all_cocos2dx_physics_manual(_state);
@@ -214,7 +212,8 @@ bool LuaStack::init(void)
 
     // add cocos2dx loader
     addLuaLoader(cocos2dx_lua_loader);
-
+    register_all_dragonbones(_state);
+    luaopen_util_json(_state);
     return true;
 }
 

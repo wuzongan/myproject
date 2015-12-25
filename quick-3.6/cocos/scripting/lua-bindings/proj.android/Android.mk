@@ -128,6 +128,24 @@ LOCAL_SRC_FILES += ../../../../external/lua/quick/lua_cocos2dx_quick_manual.cpp 
                    ../../../../external/lua/quick/LuaTouchEventManager.cpp \
                    ../../../../external/lua/quick/LuaTouchTargetNode.cpp
 
+#json
+LOCAL_SRC_FILES += ../manual/json/lua_jsonInterface.cpp \
+                    ../manual/json/util_json.cpp \
+                    ../manual/json/libjson/_internal/Source/internalJSONNode.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONAllocator.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONChildren.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONDebug.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONIterators.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONMemory.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONNode_Mutex.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONNode.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONPreparse.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONStream.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONValidator.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONWorker.cpp \
+                    ../manual/json/libjson/_internal/Source/JSONWriter.cpp \
+                    ../manual/json/libjson/_internal/Source/libjson.cpp         
+
 #extension
 ifeq ($(CC_USE_CURL),1)
 LOCAL_SRC_FILES += \
@@ -135,6 +153,9 @@ LOCAL_SRC_FILES += \
 endif
 LOCAL_SRC_FILES += ../manual/extension/lua_cocos2dx_extension_manual.cpp \
                    ../auto/lua_cocos2dx_extension_auto.cpp \
+
+#dragonbones
+LOCAL_SRC_FILES += ../auto/lua_dragonbones_auto.cpp 
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../../../../external/lua/luajit/include \
@@ -162,7 +183,17 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../../../../external/xxtea \
                     $(LOCAL_PATH)/../../../.. \
                     $(LOCAL_PATH)/../../../../external/lua \
-                    $(LOCAL_PATH)/../../../../external/lua/quick
+                    $(LOCAL_PATH)/../../../../external/lua/quick \
+                    $(LOCAL_PATH)/../manual/json \
+
+LOCAL_C_INCLUDES += \
+$(LOCAL_PATH)/../../../editor-support/dragonbones \
+$(LOCAL_PATH)/../../../editor-support/dragonbones/renderer/cocos2d-x-3.x
+
+LOCAL_C_INCLUDES += $(LOCAL_PATH)/../manual/json/libjson/_internal/Dependencies/libbase64++ \
+                   $(LOCAL_PATH)/../manual/json/libjson/_internal/Dependencies/mempool++ \
+                   $(LOCAL_PATH)/../manual/json/libjson/_internal/Source \
+                   $(LOCAL_PATH)/../manual/json/libjson/_internal/Source/JSONDefs \
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                            $(LOCAL_PATH)/../../../../external/lua/luajit/include \
@@ -182,10 +213,14 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                            $(LOCAL_PATH)/../../../..
 
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2d_lua_android_static
+LOCAL_WHOLE_STATIC_LIBRARIES += dragonbones_static
 
 LOCAL_STATIC_LIBRARIES := cocos2dx_static
+
+LOCAL_CFLAGS += -DDRAGON_BONES_ENABLE_LUA=1
 
 include $(BUILD_STATIC_LIBRARY)
 
 $(call import-module,lua/luajit/prebuilt/android)
 $(call import-module,.)
+$(call import-module,editor-support/dragonbones/renderer/cocos2d-x-3.x/android)

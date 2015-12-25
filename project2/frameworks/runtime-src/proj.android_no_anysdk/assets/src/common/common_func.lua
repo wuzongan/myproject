@@ -1,0 +1,4 @@
+function cclog(...)
+    print(...)
+end
+

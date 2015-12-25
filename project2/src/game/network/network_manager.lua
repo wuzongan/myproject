@@ -28,9 +28,11 @@ function networkMgr.httpRequestCallback(event)
     if not ok then
         -- 请求失败，显示错误代码和错误消息
         -- print("======1======",request:getErrorCode(), request:getErrorMessage())
-        local errCode = request:getErrorCode()
-        if errCode ~= 0 then
-            game_pop:show(request:getErrorMessage())
+        if event.name ~= "progress" then
+            local errCode = request:getErrorCode()
+            if errCode ~= 0 then
+                game_pop:show(request:getErrorMessage())
+            end
         end
         return
         -- if callbackTab.requestCount < 3 then--请求失败后重新连接
