@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-2.5.xsd
+		http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+	<context:component-scan base-package="com.kunlun.poker.center">
+		<context:include-filter type="regex"
+			expression=".ctrl.*" />
+		<context:include-filter type="regex"
+			expression=".service.impl.*" />
+		<context:include-filter type="regex"
+			expression=".rmi.*" />
+	</context:component-scan>
+
+	<import resource="gameServer.xml" />
+
+
+	<bean id="messageConsistencyKeeper" class="com.kunlun.poker.message.impl.DefaultMessageConsistencyKeeper" />
+
+	<bean id="userRServiceExporter" class="org.springframework.remoting.rmi.RmiServiceExporter">
+		<property name="serviceName" value="userRService" />
+		<property name="service" ref="userRService" />
+		<property name="serviceInterface" value="com.kunlun.poker.rmi.UserRService" />
+		<property name="registryPort" value="${rmi.user.registryPort}" />
+	</bean>
+	
+	<bean id="robotRServiceExporter" class="org.springframework.remoting.rmi.RmiServiceExporter">
+		<property name="serviceName" value="robotRService" />
+		<property name="service" ref="robotRService" />
+		<property name="serviceInterface" value="com.kunlun.poker.rmi.RobotRService" />
+		<property name="registryPort" value="${rmi.robot.registryPort}" />
+	</bean>
+	
+   <bean id="gmServiceExporter" class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="gmService" />
+        <property name="service" ref="gmService" />
+        <property name="serviceInterface" value="com.kunlun.poker.rmi.GmService" />
+        <property name="registryPort" value="${rmi.gm.registryPort}" />
+    </bean>
+
+	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="${db.center.driver}" />
+		<property name="url" value="${db.center.url}" />
+		<property name="username" value="${db.center.username}" />
+		<property name="password" value="${db.center.password}" />
+	</bean>
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	<mybatis:scan base-package="com.kunlun.poker.center.data" />
+
+	<bean id="scheduler" class="com.googlecode.canoe.scheduler.SchedulerImpl">
+		<constructor-arg>
+			<list>
+				<bean class="com.googlecode.canoe.scheduler.WorkerGroup">
+					<constructor-arg value="${scheduler.system.threadNum}"
+						type="int" />
+				</bean>
+				<bean class="com.googlecode.canoe.scheduler.WorkerGroup">
+					<constructor-arg value="persistence" />
+					<constructor-arg value="${scheduler.persistence.threadNum}"
+						type="int" />
+				</bean>
+				<bean class="com.googlecode.canoe.scheduler.WorkerGroup">
+					<constructor-arg value="rank" />
+					<constructor-arg value="1" type="int" />
+				</bean>
+				<bean class="com.googlecode.canoe.scheduler.WorkerGroup">
+                    <constructor-arg value="logClient" />
+                    <constructor-arg value="1" type="int" />
+                </bean>
+                <bean class="com.googlecode.canoe.scheduler.WorkerGroup">
+                    <constructor-arg value="logRecord" />
+                    <constructor-arg value="1" type="int" />
+                </bean>                
+			</list>
+		</constructor-arg>
+	</bean>
+</beans>

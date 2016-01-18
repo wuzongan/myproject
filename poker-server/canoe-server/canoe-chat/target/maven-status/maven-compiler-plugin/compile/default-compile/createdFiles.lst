@@ -1,0 +1,4 @@
+com/googlecode/canoe/chat/ctrl/OpCodes.class
+com/googlecode/canoe/chat/ctrl/ChatCtrl.class
+com/googlecode/canoe/chat/domain/User.class
+com/googlecode/canoe/chat/Main.class

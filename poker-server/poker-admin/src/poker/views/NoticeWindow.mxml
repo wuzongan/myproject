@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comps:Window xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			  xmlns:s="library://ns.adobe.com/flex/spark" 
+			  xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:comps="poker.comps.*" width="400" height="300">
+	<fx:Metadata>
+		[Event(name="submit", type="flash.events.Event")]
+	</fx:Metadata>
+	<fx:Script>
+		<![CDATA[
+			[Bindable]
+			public var notice : Object;
+			
+			private function submitNotice():void
+			{
+				if(notice == null)
+				{
+					notice = {
+						title : titleField.text,
+						content : contentField.text
+					};
+				}
+				else
+				{
+					notice.title = titleField.text;
+					notice.content = contentField.text;
+				}
+				
+				dispatchEvent(new Event("submit"));
+				close();
+			}
+		]]>
+	</fx:Script>
+	<s:Form>
+		<s:FormItem label="标题">
+			<s:TextInput id="titleField" text="{notice.title}"/>
+		</s:FormItem>
+		<s:FormItem label="内容">
+			<s:TextArea id="contentField" text="{notice.content}"/>
+		</s:FormItem>
+		<s:Button id="button" click="submitNotice()" />
+	</s:Form>
+</comps:Window>

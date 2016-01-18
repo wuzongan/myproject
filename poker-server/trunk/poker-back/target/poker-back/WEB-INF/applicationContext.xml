@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation="
+	    http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-2.5.xsd
+	    http://www.springframework.org/schema/tx   
+	    http://www.springframework.org/schema/tx/spring-tx-2.5.xsd  
+	    http://www.springframework.org/schema/aop   
+	    http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+	    http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring.xsd">
+	
+	
+    <bean id="urlMapping" class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" />
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter" />
+    
+	<bean id="configReader" class="com.kunlun.poker.back.system.ConfigReader"/>  
+	<context:property-placeholder location="classpath:../config.properties" />
+    
+	
+  	<bean id="dataSourceLog" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="${db.log.driver}" />
+		<property name="url" value="${db.log.url}" />
+		<property name="username" value="${db.log.username}" />
+		<property name="password" value="${db.log.password}" />
+	</bean>
+	
+	<bean id="sqlSessionFactoryLog" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceLog" />
+	</bean>
+	
+	<mybatis:scan base-package="com.kunlun.poker.back.data.log" factory-ref="sqlSessionFactoryLog" />
+	
+  	<bean id="dataSourceCenter" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName" value="${db.center.driver}" />
+		<property name="url" value="${db.center.url}" />
+		<property name="username" value="${db.center.username}" />
+		<property name="password" value="${db.center.password}" />
+	</bean>
+	
+	<bean id="sqlSessionFactoryCenter" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceCenter" />
+	</bean>
+	
+	<mybatis:scan base-package="com.kunlun.poker.back.data.center" factory-ref="sqlSessionFactoryCenter" />
+	
+	<bean id="gmService" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+		<property name="serviceUrl" value="${rmi.gmService.url}" />
+		<property name="serviceInterface" value="com.kunlun.poker.rmi.GmService" />
+		<property name="lookupStubOnStartup" value="false" />
+		<property name="refreshStubOnConnectFailure" value="true" />
+	</bean>
+	
+    <import resource="service.xml" />
+    
+</beans>
