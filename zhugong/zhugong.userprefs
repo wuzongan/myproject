@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NGUI/Scripts/Internal/NGUITools.cs">
+    <Files>
+      <File FileName="Assets/Resources/Scripts/SceneLogin.cs" Line="9" Column="1" />
+      <File FileName="Assets/Resources/Scripts/UIScreenAdaptive.cs" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Scripts/UIRootExtend.cs" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Scripts/BaseAspect.cs" Line="1" Column="1" />
+      <File FileName="Assets/NGUI/Scripts/Internal/NGUITools.cs" Line="1688" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
