@@ -1,9 +1,0 @@
-com/googlecode/canoe/mina/DefaultMinaSessionFactory.class
-com/googlecode/canoe/mina/CanoeProtocolCodecFactory$CanoeProtocolDecoder.class
-com/googlecode/canoe/mina/MinaCanoeServer.class
-com/googlecode/canoe/mina/CanoeProtocolCodecFactory.class
-com/googlecode/canoe/mina/CanoeProtocolCodecFactory$CanoeProtocolEncoder.class
-com/googlecode/canoe/mina/MinaResponseSender.class
-com/googlecode/canoe/mina/CanoeIoHandler.class
-com/googlecode/canoe/mina/MinaSession.class
-com/googlecode/canoe/mina/MinaSessionFactory.class
