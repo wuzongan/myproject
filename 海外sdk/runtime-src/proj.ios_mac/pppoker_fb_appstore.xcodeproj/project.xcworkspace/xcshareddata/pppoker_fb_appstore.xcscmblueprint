@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670+++C848444",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670+++C848444" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670+++C848444" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1B99DC3C-A616-4E2A-94D5-987FA45D9BC5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670+++C848444" : "PPPoker\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pppoker_fb_appstore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "client\/frameworks\/runtime-src\/proj.ios_mac\/pppoker_fb_appstore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/120.24.14.41\/PPPoker",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670+++C848444"
+    }
+  ]
+}

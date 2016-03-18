@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'dev' target in the 'dev' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
+
+#define PLATFORM_SDK
+#define PLATFORM_WCHAT

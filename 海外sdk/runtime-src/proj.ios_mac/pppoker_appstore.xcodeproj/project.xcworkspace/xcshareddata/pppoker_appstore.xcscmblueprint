@@ -1,0 +1,47 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1A2935150B837CF36732BB3D45E59500F7282F9F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670++6852" : {
+
+    },
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1A2935150B837CF36732BB3D45E59500F7282F9F" : 0,
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670++6852" : 0,
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "94C72354-7933-493C-86A6-1CFCB2D07E84",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1A2935150B837CF36732BB3D45E59500F7282F9F" : "..\/..\/..\/client\/frameworks\/runtime-src",
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670++6852" : "runtime-src\/",
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pppoker_appstore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "proj.ios_mac\/pppoker_appstore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/Floyda\/runtime-src.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A2935150B837CF36732BB3D45E59500F7282F9F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cocos2d-x\/plugin-x.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/120.24.14.41\/PPPoker",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/Floyda\/runtime-src.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670++6852"
+    }
+  ]
+}

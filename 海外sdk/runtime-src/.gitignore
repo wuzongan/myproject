@@ -1,0 +1,6 @@
+proj.android/
+proj.android_no_anysdk/
+proj.win32/
+Classes/quick-src/
+Classes/runtime/
+proj.ios_mac/ios/WeChatSDK

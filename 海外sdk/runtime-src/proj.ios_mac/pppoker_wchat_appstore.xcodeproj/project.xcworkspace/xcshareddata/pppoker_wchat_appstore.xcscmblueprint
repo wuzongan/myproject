@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670" : 0,
+    "1A7703F26CA0DEB459D4A2F1A40445CDFC9DFD9F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E197FDD0-5484-4670-847A-3BD8EC1EA1CA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670" : "PPPoker\/",
+    "1A7703F26CA0DEB459D4A2F1A40445CDFC9DFD9F" : "PPPoker\/client\/frameworks\/cocos2d-x\/plugin\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pppoker_wchat_appstore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "client\/frameworks\/runtime-src\/proj.ios_mac\/pppoker_wchat_appstore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cocos2d-x\/plugin-x.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A7703F26CA0DEB459D4A2F1A40445CDFC9DFD9F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/120.24.14.41\/PPPoker",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670"
+    }
+  ]
+}

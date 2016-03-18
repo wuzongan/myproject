@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1A2935150B837CF36732BB3D45E59500F7282F9F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670++4384" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1A2935150B837CF36732BB3D45E59500F7282F9F" : 0,
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670++4384" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "87A6FEA0-8375-4773-B988-D5B3D52D6595",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1A2935150B837CF36732BB3D45E59500F7282F9F" : "runtime-src\/",
+    "4320c573-357a-4cd4-91b0-1bc1f8dbd670++4384" : "cocos2d-x\/plugin\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pppoker_fb",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "proj.ios_mac\/pppoker_fb.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/Floyda\/runtime-src.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A2935150B837CF36732BB3D45E59500F7282F9F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cocos2d-x\/plugin-x.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4320c573-357a-4cd4-91b0-1bc1f8dbd670++4384"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1A2935150B837CF36732BB3D45E59500F7282F9F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "79598173-e0bf-7a41-abf9-27231318719c++6261" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1A2935150B837CF36732BB3D45E59500F7282F9F" : 0,
+    "79598173-e0bf-7a41-abf9-27231318719c++6261" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5F0716F2-220A-4107-93D0-EAD974900BB3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1A2935150B837CF36732BB3D45E59500F7282F9F" : "runtime-src\/",
+    "79598173-e0bf-7a41-abf9-27231318719c++6261" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dev",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "proj.ios_mac\/dev.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/Floyda\/runtime-src.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A2935150B837CF36732BB3D45E59500F7282F9F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.200",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79598173-e0bf-7a41-abf9-27231318719c++6261"
+    }
+  ]
+}
