@@ -1,0 +1,4 @@
+发布热更版本
+	1）cd到cmd下，执行./build_hot_update.sh
+	2）请输入‘前,后’两个版本号,用空格分开（如：1.1.0 1.1.1）
+	3）得到热更文件，上次config.lua和update.zip到远程热更服务器（把update.zip删掉重新压缩）
