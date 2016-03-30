@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="main" basedir=".">
+    <!-- 日期格式   -->
+    <property environment="env" />
+    <tstamp>
+        <format property="NOW" pattern="yyyy-MM-dd HH:mm:ss" offset="0" unit="hour"/>
+    </tstamp>
+    <tstamp>
+        <format property="APK_NOW" pattern="yyyy-MM-dd" offset="0" unit="hour"/>
+    </tstamp>
+    <echo message="${NOW}" />
+    <property name="apk-name" value="xbcq" /><!-- 项目名称-->
+    <property name="apk-platform" value="${platform}" /><!-- 平台名称-->
+    <property name="apk-old-package" value="" /><!-- 包名 -->
+    <property name="apk-new-package" value="" /><!-- 包名 -->
+    
+    <echo message ="${env.ANDROID_SDK_ROOT} ..."/>
+    <property name="sdk_path" value="${env.ANDROID_SDK_ROOT}"/>
+    <property name="workpath" value="../../android.platform/proj_${apk-platform}.android" />
+    <loadproperties srcFile="${workpath}/project.properties" />
+    <property name="cocos2dpath" value="${workpath}/../../../../cocos2dx" />
+    <property name="androidjar" value="${sdk_path}/platforms/android-19/android.jar" />
+    <property name="platform_sdk" value="${workpath}/${android.library.reference.2}" />
+    <echo>platform_sdk = ${platform_sdk} </echo>
+    <property name="storepass" value="111111" />
+    <property name="keypass" value="111111" />
+    <property name="alias" value="jinqu" />
+
+    <property name="unsigned_apk_name" value="${workpath}/bin/unsigned.apk"/>  
+    <property name="apk_name" value="${workpath}/bin/${apk-version}"/>
+    <property name="signed_apk_name" value="${workpath}/bin/${apk-version}/${apk-name}_${apk-platform}_${apk-version}_temp.apk"/>  
+    <property name="ziped_apk_name" value="${workpath}/bin/${apk-version}/${apk-name}_${apk-platform}_${apk-version}.apk"/> 
+    <property name="apk_dir" value="${workpath}/../../package.apk.ipa/apk" />
+    <property name="resources_dir" value="${workpath}/../../package.resources/resources_" />
+
+    <property name="android-jar" value="${androidjar}" />
+    <loadproperties srcFile="${workpath}/project.properties" />
+
+    <target name="init">
+        <echo>start initing ... ${platform} </echo>
+
+        <condition property="version_code_condition">  
+            <!--如果属性apk-version apk-code 不存在则返回false--> 
+            <and> 
+                <isset property="apk-version"/>
+                <isset property="apk-code"/>
+            </and>
+        </condition> 
+
+        <mkdir dir="${workpath}/gen" />
+        <delete>
+            <fileset dir="${workpath}/gen"></fileset>
+        </delete>
+        
+        <mkdir dir="${workpath}/bin/classes" />
+        <delete>
+            <fileset dir="${workpath}/bin/classes"></fileset>
+        </delete>
+        
+        <mkdir dir="${apk_name}" />
+        <mkdir dir="${apk_dir}/${APK_NOW}" />
+
+        <replaceregexp file="${workpath}/AndroidManifest.xml"
+        match='android:versionName="(.*)"'
+        replace='android:versionName="${apk-version}"'
+        byline="false" />
+
+        <replaceregexp file="${workpath}/AndroidManifest.xml"
+        match='android:versionCode="(.*)"'
+        replace='android:versionCode="${apk-code}"'
+        byline="false" />
+
+        <echo>finish initing. </echo>
+    </target>
+
+    <target name="main" depends="init" >
+        <echo>generating R.java for project to dir gen (using aapt) ... </echo>
+        <exec executable="${sdk_path}/build-tools/android-4.4/aapt">
+            <arg value="package" /><!-- package表示打包-->
+            <arg value="-m" /><!--m,J,gen表示创建包名的目录和R.java到gen目录下 -->
+            <arg value="-J" />
+            <arg value="${workpath}/gen" />
+            <arg value="-M" /><!-- M指定AndroidManifest.xml文件-->
+            <arg value="${workpath}/AndroidManifest.xml" />
+            <arg value="-S" /><!-- S指定res目录，生成对应的ID，可多个-->
+            <arg value="${workpath}/res" />
+            <arg value="-S" />
+            <arg value="${platform_sdk}/res" />
+            <arg value="-I" />
+            <arg value="${android-jar}" />
+            <arg value="--auto-add-overlay" /> <!-- 这个重要，覆盖资源-->
+        </exec>
+
+        <exec executable="${sdk_path}/build-tools/android-4.4/aapt">
+            <arg value="package" /><!-- package表示打包-->
+            <arg value="-m" /><!--m,J,gen表示创建包名的目录和R.java到gen目录下 -->
+            <arg value="--auto-add-overlay" />
+            <arg value="-J" />
+            <arg value="${workpath}/gen" />
+            <arg value="-M" /><!-- M指定AndroidManifest.xml文件-->
+            <arg value="${platform_sdk}/AndroidManifest.xml" />
+            <arg value="-S" /><!-- S指定res目录，生成对应的ID，可多个-->
+            <arg value="${workpath}/res" />
+            <arg value="-S" />
+            <arg value="${platform_sdk}/res" />
+            <arg value="-I" />
+            <arg value="${android-jar}" />
+        </exec>
+
+        <path id="project.libs">
+            <fileset dir="${workpath}/libs">
+                <include name="*.jar" /> 
+            </fileset>
+            <fileset dir="${platform_sdk}/libs">
+                <include name="*.jar" /> 
+            </fileset>
+        </path>
+        
+        <echo>compiling java files to class files (include R.java, library and the third-party jars) ... </echo>
+        <javac destdir="${workpath}/bin/classes" bootclasspath="${android-jar}" includeantruntime="on">
+            <src path="${cocos2dpath}/platform/android/java/src" />
+            <src path="${workpath}/src" />
+            <src path="${workpath}/gen" />
+            <src path="${platform_sdk}/src" />
+            <!-- <src path="${platform_sdk}/gen" /> -->
+            <classpath refid="project.libs" />
+        </javac>
+
+        <echo>packaging class files (include the third-party jars) to calsses.dex ... </echo>
+        <exec executable="${sdk_path}/build-tools/android-4.4/dx">
+            <arg value="--dex" />
+            <arg value="--output=${workpath}/bin/classes.dex" /><!-- 输出 -->
+            <arg value="${workpath}/bin/classes" /><!-- classes文件位置 -->
+            <arg value="${workpath}/libs" /><!-- 把libs下所有jar打包 -->
+            <!-- 把libs下所有jar打包 -->
+            <arg value="${platform_sdk}/libs" />
+        </exec>
+
+        <echo>packaging resource (include res, assets, AndroidManifest.xml, etc.) to res.zip ... </echo>
+        <exec executable="${sdk_path}/build-tools/android-4.4/aapt">
+            <arg value="package" />
+            <arg value="-f" /><!-- 资源覆盖重写 -->
+            <arg value="-M" />
+            <arg value="${workpath}/AndroidManifest.xml" />
+            <arg value="-S" />
+            <arg value="${workpath}/res" />
+            <arg value="-S" />
+            <arg value="${platform_sdk}/res" />
+            <arg value="-A" /><!-- 与R.java不同，需要asset目录也打包 -->
+            <arg value="${workpath}/assets" />
+            <arg value="-I" />
+            <arg value="${android-jar}" />
+            <arg value="-F" /><!-- 输出资源压缩包 -->
+            <arg value="${workpath}/bin/resources.ap_" />
+            <arg value="--auto-add-overlay" />
+        </exec>
+
+        <echo>building unsigned.apk ... </echo>
+        <!-- <exec executable="${sdk_path}/tools/apkbuilder"> -->
+        <java classpath="${sdk_path}/tools/lib/sdklib.jar" classname="com.android.sdklib.build.ApkBuilderMain">
+            <arg value="${workpath}/bin/unsigned.apk" />
+            <arg value="-u" />
+            <arg value="-z" />
+            <arg value="${workpath}/bin/resources.ap_" />
+            <arg value="-f" />
+            <arg value="${workpath}/bin/classes.dex" />
+            <arg value="-rf"/>
+            <arg value="${workpath}/src"/>
+            <arg value="-nf"/>  
+            <arg value="${workpath}/libs"/>
+            <arg value="-rj"/>
+            <arg value="${workpath}/libs"/>
+        <!-- </exec> -->
+        </java>
+        
+        <echo>signing the unsigned apk to final product apk ... </echo>
+        <exec executable="jarsigner">
+            <arg value="-keystore" />
+            <arg value="${workpath}/../Resources/jinqu.keystore" />
+            <arg value="-storepass" />
+            <arg value="${storepass}" />
+            <arg value="-keypass" />
+            <arg value="${keypass}" />
+            <arg value="-signedjar" />
+            <arg value="${signed_apk_name}" />
+            <arg value="-digestalg" />
+            <arg value="SHA1" />
+            <arg value="-sigalg" />
+            <arg value="MD5withRSA" />
+            <arg value="${unsigned_apk_name}" />
+            <arg value="${alias}" />
+        </exec>
+        
+        <!--最后是进行程序包优化--> 
+        <echo message ="zipalign the signed apk"/>
+        <exec executable="${sdk_path}/tools/zipalign">
+            <arg value="-f" /><!-- 资源覆盖重写 -->
+            <!-- <arg value="-v" /> -->
+            <arg value="4" />
+            <arg value="${signed_apk_name}" /> 
+            <arg value="${ziped_apk_name}" /> 
+        </exec>
+
+        <echo message ="delete file ..."/>
+        <delete file="${unsigned_apk_name}" />
+        <echo message ="copy file ..."/>
+        <copy file="${ziped_apk_name}" todir="${apk_dir}/${APK_NOW}" />
+        <delete>
+            <fileset dir="${apk_name}"></fileset>
+        </delete>
+        <echo>done.</echo>
+    </target>
+</project>

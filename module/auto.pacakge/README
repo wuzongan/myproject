@@ -1,0 +1,18 @@
+android 自动打包
+
+安装ant
+环境变量
+SDK_ROOT=sdk 路径
+ANT_ROOT=ant 路径
+NDK_ROOT=ndk 路径
+
+31个国内android平台
+一个没平台
+一个海外平台
+
+打包前需要自己拷贝资源
+为了节省打包的时间，不使用资源的拷贝脚本，但是需要使用资源目录的软引用
+
+配置ndk的环境变量
+打包所有平台，执行makepackage.sh
+打包单个平台，执行对应的sh
