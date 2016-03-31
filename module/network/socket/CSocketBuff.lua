@@ -11,7 +11,7 @@ function CSocketBuff:addReadBuf(SocketData)
 	end
 end
 
-function CSocketBuff:getReadBuf()
+function CSocketBuff:getReadBuf() 
 	return self.readBuf
 end
 
